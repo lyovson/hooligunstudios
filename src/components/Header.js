@@ -5,30 +5,29 @@ import { socials } from "../data/socials.js";
 
 export default function Header() {
   return (
-    <header className="items- flex flex-row justify-around  gap-4 border-b-4 border-stone-500 p-8 px-10 ">
+    <header className="flex flex-col items-center justify-around gap-4  border-y-4 border-stone-400  p-8 px-10 lg:max-h-[200px] lg:flex-row ">
       <Image
-        src={"/logo.png"}
+        src={"/logosquare.png"}
         alt={"Hooligun studios logo"}
-        width="300"
-        height="150"
-        className="aspect-video "
+        width="200"
+        height="200"
+        className=" aspect-square"
       />
-      <ul className="-order-1 hidden flex-col gap-4 border-r-4 border-stone-500  p-8 text-sm md:block md:flex lg:order-3 lg:border-l-4 lg:border-r-0">
+
+      <ul className=" flex  justify-end gap-8 border-stone-400 text-lg">
         {socials.map((social) => {
           return (
             <li key={social.name}>
-              <a href={social.url} target="blank">
-                <FontAwesomeIcon icon={social.icon} className="h-8 w-8" />
+              <a
+                href={social.url}
+                target="blank"
+                className="flex gap-4 capitalize"
+              >
+                <FontAwesomeIcon icon={social.icon} className="h-8 w-8 " />
               </a>
             </li>
           );
         })}
-      </ul>
-
-      <ul className="hidden border-l-4 border-stone-500 p-8 md:block">
-        <li>address</li>
-        <li>phone</li>
-        <li>email</li>
       </ul>
     </header>
   );

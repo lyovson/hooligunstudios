@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="flex flex-col-reverse  items-center gap-10 border-b-4 border-stone-500 p-8 lg:flex-row lg:px-20">
+    <section className="flex flex-col-reverse  items-center gap-10 border-b-4 border-stone-400 p-8 lg:flex-row lg:px-20">
       <article>
         <h2 className=" py-4 text-3xl">About:</h2>
         <p className=" text-justify ">
@@ -20,13 +20,6 @@ export default function About() {
           eligendi laudantium quam.
         </p>
       </article>
-      <Image
-        src={"/crew.jpeg"}
-        alt={"Hooligun studios crew"}
-        width="300"
-        height="300"
-        className="rounded-xl shadow-md"
-      />
     </section>
   );
 }

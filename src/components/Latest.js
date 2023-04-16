@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Latest() {
   return (
-    <section className="flex flex-col items-center gap-10 border-b-4 border-stone-500 p-8 lg:flex-row lg:px-20">
+    <section className="flex flex-col items-center gap-10 border-b-4 border-stone-400 p-8 lg:flex-row lg:px-20">
       <Image
-        src={"/poster.jpg"}
+        src={"/posternew.jpg"}
         alt={"Hooligun studios logo"}
         width="300"
         height="300"
