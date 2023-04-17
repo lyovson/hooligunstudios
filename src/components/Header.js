@@ -5,25 +5,35 @@ import { socials } from "../data/socials.js";
 
 export default function Header() {
   return (
-    <header className="flex flex-col items-center justify-around gap-4  border-y-4 border-stone-400  p-8 px-10 lg:max-h-[200px] lg:flex-row ">
+    <header
+      style={{
+        backgroundImage: "url(/background.jpg)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+      className="flex flex-col items-center justify-between gap-4  p-8 px-10 lg:max-h-[200px] lg:flex-row lg:p-2 "
+    >
       <Image
-        src={"/logosquare.png"}
+        src={"/logonew.png"}
         alt={"Hooligun studios logo"}
-        width="200"
+        width="300"
         height="200"
-        className=" aspect-square"
+        className=""
       />
 
-      <ul className=" flex  justify-end gap-8 border-stone-400 text-lg">
+      <ul className="  flex justify-end  gap-8 text-lg lg:gap-2 lg:self-end ">
         {socials.map((social) => {
           return (
             <li key={social.name}>
               <a
                 href={social.url}
                 target="blank"
-                className="flex gap-4 capitalize"
+                className="  flex capitalize "
               >
-                <FontAwesomeIcon icon={social.icon} className="h-8 w-8 " />
+                <FontAwesomeIcon
+                  icon={social.icon}
+                  className="h-8 w-8  lg:h-6 lg:w-6"
+                />
               </a>
             </li>
           );

@@ -7,11 +7,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
-    <section className="flex flex-col items-center justify-center  gap-8 border-b-4 border-stone-400 p-8 lg:flex-row">
+    <section className="flex flex-col items-center justify-center  gap-8  bg-gradient-to-br from-[#e3decb] to-[#7a6f65] bg-clip-text  p-8 text-transparent  lg:flex-row">
       <ul className=" flex flex-col justify-center  gap-4 p-8">
         <li className="flex items-center gap-4">
           <FontAwesomeIcon icon={faLocationDot} className="h-4 w-4" />
-          <span>37/1 David Bek Lane | 0001 | Yerevan, Armenia</span>
+          <span> 37/1 David Bek Lane | 0001 | Yerevan, Armenia</span>
         </li>
         <li className="flex items-center gap-4">
           <FontAwesomeIcon icon={faPhone} className="h-4 w-4" />

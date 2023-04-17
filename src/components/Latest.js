@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Latest() {
   return (
-    <section className="flex flex-col items-center gap-10 border-b-4 border-stone-400 p-8 lg:flex-row lg:px-20">
+    <section className="flex flex-col items-center gap-10  p-8 lg:flex-row lg:px-20">
       <Image
         src={"/posternew.jpg"}
         alt={"Hooligun studios logo"}
@@ -11,21 +11,12 @@ export default function Latest() {
         className="rounded-xl shadow-md"
       />
 
-      <article>
-        <h2 className=" py-4 text-3xl">OTTK:</h2>
-        <p className=" text-justify ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          quibusdam optio temporibus quam earum velit atque dignissimos,
-          molestiae doloribus magni esse? Mollitia eos quo cumque. Autem neque
-          et itaque omnis, cumque provident fugit placeat alias. Sit perferendis
-          accusamus ullam odit maiores placeat atque et sint pariatur nisi magni
-          magnam, beatae suscipit nesciunt. Cumque sed voluptatum fuga
-          aspernatur illum beatae nemo quos atque, deserunt quaerat! Nostrum
-          maiores, provident cumque aspernatur excepturi quam eum odio ipsum
-          asperiores dolor vitae hic similique reiciendis nobis perferendis
-          soluta molestiae. Doloremque, sed amet. Perspiciatis assumenda
-          repudiandae porro, dolore quaerat culpa voluptatibus a corrupti
-          eligendi laudantium quam.
+      <article className="bg-gradient-to-br from-[#e3decb]  to-[#7a6f65] bg-clip-text  text-transparent">
+        <h2 className=" py-4 text-center text-3xl lg:text-left">OTTK</h2>
+        <p className=" text-justify">
+          One night in the life of a businessman, his all-Armenian heist team, a
+          crime boss, and the chief of police. Chaos unleashes, leading to a
+          bloody raid as every story-line collides.
         </p>
       </article>
     </section>

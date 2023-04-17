@@ -7,7 +7,7 @@ import Projects from "../components/Projects.js";
 
 export default function Home() {
   return (
-    <main className="mx-auto  flex max-w-[1200px] flex-col border-x-4 border-stone-400 ">
+    <main className="mx-auto  flex max-w-[1200px] flex-col  ">
       <Header />
       <About />
       <Latest />
