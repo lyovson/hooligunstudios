@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         hedaing: ["var(--berg-font)"],
+        body: ["var(--body-font)"],
       },
     },
   },

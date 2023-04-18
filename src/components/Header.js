@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header
       style={{
-        backgroundImage: "url(/bck.jpg)",
+        backgroundImage: "url(/header-bckg.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -20,20 +20,20 @@ export default function Header() {
         height="200"
         className="lg:ml-[60px] "
       />
+      <h1 id="title" className=" opacity-0">
+        Hooligun Studios
+      </h1>
 
-      <ul className="  flex justify-end  gap-8 text-lg lg:mr-[60px] lg:gap-2 lg:self-end">
+      <ul className="  flex justify-end  gap-2 text-lg lg:mr-[60px] lg:self-end">
         {socials.map((social) => {
           return (
             <li key={social.name}>
               <a
                 href={social.url}
                 target="blank"
-                className="  flex capitalize "
+                className="  flex capitalize  "
               >
-                <FontAwesomeIcon
-                  icon={social.icon}
-                  className="h-8 w-8  text-stone-400 lg:h-6 lg:w-6"
-                />
+                <FontAwesomeIcon icon={social.icon} className="h-6 w-6 " />
               </a>
             </li>
           );
