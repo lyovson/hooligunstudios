@@ -1,4 +1,7 @@
+import localFont from "next/font/local";
 import Image from "next/image";
+
+const berg = localFont({ src: "../../public/berg.ttf" });
 
 export default function Latest() {
   return (
@@ -11,8 +14,12 @@ export default function Latest() {
         className="rounded-xl shadow-md"
       />
 
-      <article className="bg-gradient-to-br from-[#e3decb]  to-[#7a6f65] bg-clip-text  text-transparent">
-        <h2 className=" py-4 text-center text-3xl lg:text-left">OTTK</h2>
+      <article className="">
+        <h2
+          className={` ${berg.className}  py-4 text-center text-3xl lg:text-left`}
+        >
+          OTTK
+        </h2>
         <p className=" text-justify">
           One night in the life of a businessman, his all-Armenian heist team, a
           crime boss, and the chief of police. Chaos unleashes, leading to a
