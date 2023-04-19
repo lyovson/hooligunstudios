@@ -12,7 +12,6 @@ export default function Home() {
       <Header />
       <About />
       <Latest />
-      <Divider />
       <Crew />
       <Footer />
     </main>
