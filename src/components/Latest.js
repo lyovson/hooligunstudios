@@ -8,9 +8,9 @@ const berg = localFont({ src: "../../public/berg.ttf" });
 export default function Latest() {
   return (
     <section className="flex flex-col items-center gap-4 p-8   lg:px-20">
-      <section className="  flex flex-col items-center justify-between gap-8 md:flex-row">
+      <section className="  flex flex-col items-center justify-between gap-4 md:flex-row">
         <Image
-          src={"/ottk-poster.jpg"}
+          src={"/posternew.jpg"}
           alt={"OTTK film logo"}
           width="400"
           height="400"
@@ -18,7 +18,7 @@ export default function Latest() {
         />
 
         <article className="flex flex-col  gap-4">
-          <article className="order-1">
+          <article className="">
             <p>
               OTTK is about one night in the life of a businessman who was
               bamboozled by his partner. He decides to take back something
@@ -39,7 +39,7 @@ export default function Latest() {
               is the biggest achievement of this endeavor for us.
             </p>
           </article>
-          <footer className=" -order-2 flex justify-center gap-4 py-4 md:order-2 md:justify-start">
+          <footer className="  className={`max-w-`} flex justify-center gap-4 py-4 md:order-2 md:justify-start">
             <a
               className="rounded-lg border-2 border-[#bab49e] p-2 shadow-md "
               href="https://ottkfilm.com"
@@ -58,15 +58,18 @@ export default function Latest() {
         </article>
       </section>
 
-      <section className="flex flex-col gap-8 md:flex-row">
-        <article className=" mb-4 max-w-[100%]  md:max-w-[35%]">
-          {`This here is the one official trailer for our movie. Why only one? Because it's enough to make you wanna come. If this doesn't make you wanna come check with your doctor.`}
+      <section className="flex flex-col items-center gap-8 md:flex-row">
+        <Video videoId={"UaP1C6Wuf9o"} name={"Official Trailer"} />
+        <article className=" mb-4 max-w-[100%]  md:-order-1 md:max-w-[35%]">
+          {`The official trailer released a month before the movie's Yerevan premiere. It was accompanied by a range of interviews witht he local media to generate hype and interest. Needless to say it worked like a charm. The Premiere itself followed a on April 6th 2023 and was a huge success.`}
         </article>
-        <Video videoId={"UaP1C6Wuf9o"} />
       </section>
       <section className="flex w-full flex-col justify-between gap-8 md:flex-row">
-        <Video videoId={"UaP1C6Wuf9o"} />
-        <Video videoId={"UaP1C6Wuf9o"} />
+        <Video videoId={"db1zcLX-GQI"} name={"OTTK Yerevan Premiere"} />
+        <Video
+          videoId={"rYmIC5VdQOg"}
+          name={"Interview With Levon Beglaryan"}
+        />
       </section>
     </section>
   );

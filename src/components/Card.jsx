@@ -18,19 +18,18 @@ export default function Card({ info }) {
       variants={cardVariants}
       whileHover="hover"
       initial="initial"
-      className={` flex max-w-[500px] flex-col items-center gap-8   rounded-xl bg-stone-900  bg-opacity-80 p-4   text-[#bab49e]  shadow-md lg:flex-row`}
+      className={` grid grid-cols-1 grid-rows-1  rounded-xl bg-stone-900  bg-opacity-80 p-4   text-[#bab49e]  shadow-md lg:flex-row`}
     >
       <Image
-        className={` aspect-auto rounded-xl `}
+        className={` col-start-1 row-start-1 aspect-auto h-[400px] w-[300px] rounded-xl `}
         src={info.image}
         width={200}
         height={400}
         alt={info.slug}
       />
-      <aside className=" flex flex-col gap-4 text-justify  lg:text-left">
-        <h3 className={`${berg.className} text-2xl`}>{info.name}</h3>
+      <aside className="col-start-1 row-start-1 flex flex-col gap-4 self-end bg-stone-900 bg-opacity-80 p-4 text-justify   lg:text-left">
+        <h3 className={`${berg.className} text-3xl`}>{info.name}</h3>
         <p className="text-lg">{info.role}</p>
-        <p className="">{info.bio}</p>
       </aside>
     </motion.article>
   );
