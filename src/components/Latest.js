@@ -1,3 +1,6 @@
+import { faImdb } from "@fortawesome/free-brands-svg-icons";
+import { faSafari } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import localFont from "next/font/local";
 import Image from "next/image";
 
@@ -7,17 +10,27 @@ const berg = localFont({ src: "../../public/berg.ttf" });
 
 export default function Latest() {
   return (
-    <section className="flex flex-col items-center gap-4 p-8   lg:px-20">
-      <section className="  flex flex-col items-center justify-between gap-4 md:flex-row">
+    <section
+      style={{
+        backgroundImage: "url(/latest-bckg.jpg)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+      className="flex flex-col items-center gap-4 p-8   lg:px-20"
+    >
+      <section className="  flex flex-col items-center justify-between gap-4 md:flex-row md:items-start">
         <Image
           src={"/posternew.jpg"}
           alt={"OTTK film logo"}
           width="400"
           height="400"
-          className="rounded-xl shadow-md md:w-[35%]"
+          className="  rounded-xl shadow-md md:-ml-2 md:-mt-2 md:w-[35%]"
         />
 
         <article className="flex flex-col  gap-4">
+          <h2 className={` ${berg.className} py-4  text-left  text-3xl`}>
+            OTTK:
+          </h2>
           <article className="">
             <p>
               OTTK is about one night in the life of a businessman who was
@@ -41,34 +54,58 @@ export default function Latest() {
           </article>
           <footer className="  className={`max-w-`} flex justify-center gap-4 py-4 md:order-2 md:justify-start">
             <a
-              className="rounded-lg border-2 border-[#bab49e] p-2 shadow-md "
+              className="flex gap-2 rounded-lg border-2 border-[#bab49e] p-2 shadow-md "
               href="https://ottkfilm.com"
               target="_blank"
             >
+              <FontAwesomeIcon icon={faSafari} className="h-6 w-6 " />
               Official Website
             </a>
             <a
-              className="rounded-lg  border-2 border-[#bab49e] p-2 shadow-md"
+              className="flex gap-2 rounded-lg border-2 border-[#bab49e] p-2 shadow-md"
               href="https://www.imdb.com/title/tt27466882/?ref_=fn_al_tt_1"
               target="_blank"
             >
+              <FontAwesomeIcon icon={faImdb} className="h-6 w-6 " />
               IMDB Page
             </a>
           </footer>
         </article>
       </section>
 
-      <section className="flex flex-col items-center gap-8 md:flex-row">
-        <Video videoId={"UaP1C6Wuf9o"} name={"Official Trailer"} />
-        <article className=" mb-4 max-w-[100%]  md:-order-1 md:max-w-[35%]">
-          {`The official trailer released a month before the movie's Yerevan premiere. It was accompanied by a range of interviews witht he local media to generate hype and interest. Needless to say it worked like a charm. The Premiere itself followed a on April 6th 2023 and was a huge success.`}
-        </article>
-      </section>
-      <section className="flex w-full flex-col justify-between gap-8 md:flex-row">
-        <Video videoId={"db1zcLX-GQI"} name={"OTTK Yerevan Premiere"} />
+      <section className=" grid w-full  grid-cols-1 gap-8 md:grid-cols-2 ">
         <Video
+          className={` `}
+          videoId={"UaP1C6Wuf9o"}
+          title={"Official Trailer"}
+          info={
+            "Lorem ipsum dolor sit amet. Consecutor Malsco alles ovey allo, gomir jesup balast por favort consecutor beliosa."
+          }
+        />
+
+        <Video
+          className={``}
+          videoId={"db1zcLX-GQI"}
+          title={"OTTK Yerevan Premiere"}
+          info={
+            "Lorem ipsum dolor sit amet. Consecutor Malsco alles ovey allo, gomir jesup balast por favort consecutor beliosa."
+          }
+        />
+        <Video
+          className={` `}
+          videoId={"db1zcLX-GQI"}
+          title={"OTTK Yerevan Premiere"}
+          info={
+            "Lorem ipsum dolor sit amet. Consecutor Malsco alles ovey allo, gomir jesup balast por favort consecutor beliosa."
+          }
+        />
+        <Video
+          className={` `}
           videoId={"rYmIC5VdQOg"}
-          name={"Interview With Levon Beglaryan"}
+          title={"Interview With Levon Beglaryan"}
+          info={
+            "Lorem ipsum dolor sit amet. Consecutor Malsco alles ovey allo, gomir jesup balast por favort consecutor beliosa."
+          }
         />
       </section>
     </section>

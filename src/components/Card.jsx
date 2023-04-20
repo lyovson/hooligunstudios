@@ -1,10 +1,14 @@
 "use client";
 
+import {
+  faFacebook,
+  faSquareFacebook,
+  faSquareInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
-import localFont from "next/font/local";
 import Image from "next/image";
-
-const berg = localFont({ src: "../../public/berg.ttf" });
 
 const cardVariants = {
   initial: { y: 0 },
@@ -18,18 +22,25 @@ export default function Card({ info }) {
       variants={cardVariants}
       whileHover="hover"
       initial="initial"
-      className={` grid grid-cols-1 grid-rows-1  rounded-xl bg-stone-900  bg-opacity-80 p-4   text-[#bab49e]  shadow-md lg:flex-row`}
+      className={`  flex  w-[400px]  items-center   `}
     >
       <Image
-        className={` col-start-1 row-start-1 aspect-auto h-[400px] w-[300px] rounded-xl `}
+        className={`  aspect-square  rounded-full `}
         src={info.image}
-        width={200}
-        height={400}
+        width={150}
+        height={150}
         alt={info.slug}
       />
-      <aside className="col-start-1 row-start-1 flex flex-col gap-4 self-end bg-stone-900 bg-opacity-80 p-4 text-justify   lg:text-left">
-        <h3 className={`${berg.className} text-3xl`}>{info.name}</h3>
-        <p className="text-lg">{info.role}</p>
+      <aside className=" flex flex-col gap-8  p-4 ">
+        <article className=" flex flex-col">
+          <h3 className={` text-xl font-bold`}>{info.name}</h3>
+          <p className=" text-lg font-extralight">{info.role}</p>
+        </article>
+        <footer className="flex gap-2">
+          <FontAwesomeIcon icon={faSquareFacebook} className="h-6 w-6 " />
+          <FontAwesomeIcon icon={faSquareInstagram} className="h-6 w-6 " />
+          <FontAwesomeIcon icon={faEnvelopeSquare} className="h-6 w-6 " />
+        </footer>
       </aside>
     </motion.article>
   );
