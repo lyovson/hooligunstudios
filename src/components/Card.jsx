@@ -1,11 +1,14 @@
 "use client";
 
 import {
-  faFacebook,
   faSquareFacebook,
   faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelopeSquare,
+  faSquareEnvelope,
+  faSquarePhone,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -37,9 +40,18 @@ export default function Card({ info }) {
           <p className=" text-lg font-extralight">{info.role}</p>
         </article>
         <footer className="flex gap-2">
-          <FontAwesomeIcon icon={faSquareFacebook} className="h-6 w-6 " />
-          <FontAwesomeIcon icon={faSquareInstagram} className="h-6 w-6 " />
-          <FontAwesomeIcon icon={faEnvelopeSquare} className="h-6 w-6 " />
+          <button onClick={() => window.open(`tel:${info.phone}`)}>
+            <FontAwesomeIcon icon={faSquarePhone} className="h-6 w-6 " />
+          </button>
+          <button onClick={() => window.open(`mailto:${info.email}`)}>
+            <FontAwesomeIcon icon={faEnvelopeSquare} className="h-6 w-6 " />
+          </button>
+          <a href={info.fb} target="_blank">
+            <FontAwesomeIcon icon={faSquareFacebook} className="h-6 w-6 " />
+          </a>
+          <a href={info.ig} target="_blank">
+            <FontAwesomeIcon icon={faSquareInstagram} className="h-6 w-6 " />
+          </a>
         </footer>
       </aside>
     </motion.article>

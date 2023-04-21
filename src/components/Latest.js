@@ -33,23 +33,7 @@ export default function Latest() {
           </h2>
           <article className="">
             <p>
-              OTTK is about one night in the life of a businessman who was
-              bamboozled by his partner. He decides to take back something
-              important for him and hires a heist team to that end. The main
-              message of the plot is that the only key to success is the ability
-              to listen and understand each other, in order to otherwise avoid
-              devastating chaos. It is a black comedy, with a lot of jokes and
-              hilarious situations, as much action as we could afford, which we
-              sure will be funny also for people not familiar with our culture
-              and social peculiarities. If translated from Armenian it means The
-              Air, the Moonshine and the Butt (of a rifle, and you thought?).
-              Just for the sake of brevity we kept “OTTK” as a working title and
-              it kind of stuck. OTTK is our first project, a film made with all
-              we had, heart, brain and muscle. We wanted to make something that
-              will be watchable even in 20 years from now and the user reviews
-              we receive are more than inspiring. We love our creation and are
-              proud of it. We are determined to go on with new projects and that
-              is the biggest achievement of this endeavor for us.
+              {`Our first project, OTTK, is a wild ride that you won't want to miss. It’s about one night in the life of a businessman who got bamboozled by his partner. And you know what he does? He hires an all-Armenian heist team from the diaspora to take back something important to him. Sounds like a recipe for success, right? But wait, it gets better. These guys speak different Armenian dialects and don't understand each other. Now, that leads to some hilarious situations, let me tell you. OTTK is a black comedy, with a lot of jokes and as much action as we could afford. And well, we put our heart, brain, and muscle into this movie to make it watchable even in 20 years, and we’re confident we've done just that. The reviews we've been getting are more than inspiring. People love this movie, and we couldn't be prouder. We poured everything we had into this project, and it shows. So, if you're looking for a good time, look no further than OTTK.`}
             </p>
           </article>
           <footer className="  className={`max-w-`} flex justify-center gap-4 py-4 md:order-2 md:justify-start">
@@ -79,7 +63,7 @@ export default function Latest() {
           videoId={"UaP1C6Wuf9o"}
           title={"Official Trailer"}
           info={
-            "Lorem ipsum dolor sit amet. Consecutor Malsco alles ovey allo, gomir jesup balast por favort consecutor beliosa."
+            "You won’t get much plot from the trailer, but it’ll certainly intrigue you."
           }
         />
 
@@ -88,24 +72,20 @@ export default function Latest() {
           videoId={"db1zcLX-GQI"}
           title={"OTTK Yerevan Premiere"}
           info={
-            "Lorem ipsum dolor sit amet. Consecutor Malsco alles ovey allo, gomir jesup balast por favort consecutor beliosa."
-          }
-        />
-        <Video
-          className={` `}
-          videoId={"db1zcLX-GQI"}
-          title={"OTTK Yerevan Premiere"}
-          info={
-            "Lorem ipsum dolor sit amet. Consecutor Malsco alles ovey allo, gomir jesup balast por favort consecutor beliosa."
+            "We made it to the big screens. Finally. And let me tell you, we slayed."
           }
         />
         <Video
           className={` `}
           videoId={"rYmIC5VdQOg"}
           title={"Interview With Levon Beglaryan"}
-          info={
-            "Lorem ipsum dolor sit amet. Consecutor Malsco alles ovey allo, gomir jesup balast por favort consecutor beliosa."
-          }
+          info={"Get to know our cast in a fun interview with Levon Beglaryan."}
+        />
+        <Video
+          className={` `}
+          videoId={"TfBm1bmpjXI"}
+          title={"Karotilim From OTTK OST"}
+          info={"Keep calm and plunge into the OTTK world with our soundtrack."}
         />
       </section>
     </section>

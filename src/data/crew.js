@@ -6,6 +6,8 @@ const info = [
     image: "",
     phone: "+37443607977",
     email: "gabyan@hooligunstudios.com",
+    fb: "https://www.facebook.com/197gabyan",
+    ig: "https://www.instagram.com/serjgabyan/",
   },
   {
     name: "Rafa Lyovson",
@@ -14,6 +16,8 @@ const info = [
     image: "",
     phone: "+37455567372",
     email: "lyovson@hooligunstudios.com",
+    fb: "https://www.facebook.com/rafa.lyovson",
+    ig: "https://www.instagram.com/rafa.lyovson/",
   },
   {
     name: "Lilit Mkrtchyan",
@@ -22,6 +26,8 @@ const info = [
     image: "",
     phone: "+37491403128",
     email: "info@hooligunstudios.com",
+    fb: "https://www.facebook.com/lilit.mkrtchyan.9237",
+    ig: "https://www.instagram.com/lilitgabyan/",
   },
   {
     name: "Milena Mikaelyan",
@@ -30,6 +36,8 @@ const info = [
     image: "",
     phone: "+37493818191",
     email: "milka@hooligunstudios.com",
+    fb: "https://www.facebook.com/milena.mikayelyan.am",
+    ig: "https://www.instagram.com/milena__mik/",
   },
   {
     name: "Ruby Davies",
@@ -38,6 +46,8 @@ const info = [
     image: "",
     phone: "+37455567372",
     email: "distribution@hooligunstudios.com",
+    fb: "https://www.facebook.com/ottkfilm",
+    ig: "https://www.instagram.com/ottk_film/",
   },
   {
     name: "Hasmik Khachunts",
@@ -46,6 +56,8 @@ const info = [
     image: "",
     phone: "+37455188870",
     email: "pr@hooligunstudios.com",
+    fb: "https://www.facebook.com/hasmik.khachunts",
+    ig: "https://www.instagram.com/khachunts/",
   },
   {
     name: "Tika Agasimova",
@@ -54,6 +66,8 @@ const info = [
     image: "",
     phone: "+79259103996",
     email: "distribution@hooligunstudios.com",
+    fb: "https://www.facebook.com/ottkfilm",
+    ig: "https://www.instagram.com/ottk_film/",
   },
   {
     name: "Roza Grigoryan",
@@ -62,6 +76,8 @@ const info = [
     image: "",
     phone: "+37477303484",
     email: "pr@hooligunstudios.com",
+    fb: "https://www.facebook.com/WithLoveRozi",
+    ig: "https://www.instagram.com/prshik_/",
   },
 ];
 

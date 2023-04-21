@@ -23,10 +23,13 @@ export default function Footer() {
         </li>
       </ul>
       <aside className=" text-justify ">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quam
-        recusandae! Quas cupiditate, veniam fugiat atque est eos, labore fugit
-        vero magni nam modi rem repellat eaque dolorum ea nemo alias eligendi
-        soluta fuga harum omnis iure. Ea, quidem nulla!
+        <p>&copy; 2023 Hooligun Studios LLC. All rights reserved.</p>
+        <p>
+          Website by{" "}
+          <a className="underline" href="https://lyovson.com">
+            Lyovson.
+          </a>
+        </p>
       </aside>
     </section>
   );
