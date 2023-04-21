@@ -18,17 +18,17 @@ export default function About() {
           WHO DA HELL ARE WE:
         </h2>
         <p className="  ">
-          {`We're Hooligun Studios, baby! And let me tell you something, we don't mess around. We're an indie movie studio that dreams up crazy ideas and forces them into reality. That's right, we don't make plan "Bs". We give our all to what we love, and what we love is a great film that will stand the test of time. Drumroll please – the man behind the madness. Serj Gabyan, the engine, the mastermind, the one who's fueling our team with his 15+ years of networking, producing, and directing experience. He's the one who's bringing those flaming ideas to the table, and let me tell you, it's a sight to see. But he's not alone. He's got a team of brave, crazy, and talented individuals who are just as passionate about making great films as he is. Together, we're gonna take the world by storm, one movie at a time.
+          {`We're Hooligun Studios, baby! And let me tell you something, we don't mess around. We're an indie movie studio that dreams up crazy ideas and forces them into reality. That's right, we don't make plan "B"s. We give our all to what we love, and we love great movies that stand the test of time. Drumroll please – the man behind the madness. Serj Gabyan, the engine, the mastermind, the one who's fueling our team with his 15+ years of networking, producing, and directing experience. He's the one who's bringing those flaming ideas to the table, and let me tell you, it's a sight to see. But he's not alone. He's got a team of brave, crazy, and talented individuals who are just as passionate about making great movies as he is. Together, we're gonna take the world by storm, one movie at a time.
 `}
         </p>
       </article>
-      <Image
+      {/* <Image
         src={"/crew.jpeg"}
         alt={"OTTK film logo"}
         width="300"
         height="300"
         className=" border-2 border-[#bab49e] p-2  opacity-70 sepia md:w-[50%] lg:w-[35%] "
-      />
+      /> */}
     </section>
   );
 }

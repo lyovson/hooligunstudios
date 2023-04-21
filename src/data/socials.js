@@ -19,7 +19,7 @@ export const socials = [
   },
   {
     name: "twitter",
-    url: "https://twitter.com/lyovson",
+    url: "https://twitter.com/ottkfilm",
     icon: faTwitter,
   },
   {
