@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import Link from "next/link";
 
 import { socials } from "../data/socials.js";
 
@@ -13,14 +14,16 @@ export default function Header() {
       }}
       className="p8 relative "
     >
-      <section className=" mb-10 flex flex-col items-center justify-between gap-4 px-10 md:mb-6  lg:mb-6  lg:max-h-[200px] lg:flex-row lg:p-2">
-        <Image
-          src={"/logonew.png"}
-          alt={"Hooligun studios logo"}
-          width="300"
-          height="200"
-          className="lg:ml-[60px] "
-        />
+      <section className=" mb-10 flex flex-col items-center justify-between gap-4 px-10 md:mb-6  lg:mb-0  lg:max-h-[200px] lg:flex-row lg:p-2">
+        <Link href="/">
+          <Image
+            src={"/logonew.png"}
+            alt={"Hooligun studios logo"}
+            width="300"
+            height="200"
+            className="lg:ml-[60px] "
+          />
+        </Link>
         <h1 id="title" className=" opacity-0">
           Hooligun Studios
         </h1>

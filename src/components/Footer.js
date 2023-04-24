@@ -23,7 +23,7 @@ export default function Footer() {
           <span>info@hooligunstudios.com</span>
         </li>
       </ul>
-      <aside className=" flex flex-col gap-4 text-justify ">
+      <aside className="flex flex-col gap-4 text-justify text-sm ">
         <p>
           To whom it may concern: company logo and OTTK film’s official posters
           in production resolution are listed{" "}
@@ -32,10 +32,8 @@ export default function Footer() {
           </Link>
           , don’t mess around with it, or Grinch will get you.
         </p>
-        <p className="text-sm">
-          &copy; 2023 Hooligun Studios LLC. All rights reserved.
-        </p>
-        <p className="text-sm">
+        <p>&copy; 2023 Hooligun Studios LLC. All rights reserved.</p>
+        <p>
           Website by{" "}
           <a className="underline" href="https://lyovson.com">
             Lyovson.

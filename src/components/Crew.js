@@ -17,7 +17,7 @@ export default function Crew() {
       className=" relative flex flex-col pb-12 pt-10"
     >
       <h2 className={` ${berg.className} py-4   text-center  text-3xl`}>
-        TEAM:
+        CREW:
       </h2>
       <ssection className="flex flex-wrap justify-center    gap-4  ">
         {crew.map((info) => {
@@ -29,7 +29,7 @@ export default function Crew() {
         alt={"Stylized border with a skull"}
         width="1200"
         height="50"
-        className=" absolute -bottom-8  z-10   mx-auto  px-4 sm:-bottom-9 md:-bottom-8 md:left-[calc(50%-300px)] md:w-[600px]"
+        className=" absolute -bottom-6  z-10   mx-auto  px-4 sm:-bottom-9 md:-bottom-8 md:left-[calc(50%-300px)] md:w-[600px]"
       />
     </section>
   );
