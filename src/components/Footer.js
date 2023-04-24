@@ -4,6 +4,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -22,9 +23,19 @@ export default function Footer() {
           <span>info@hooligunstudios.com</span>
         </li>
       </ul>
-      <aside className=" text-justify ">
-        <p>&copy; 2023 Hooligun Studios LLC. All rights reserved.</p>
+      <aside className=" flex flex-col gap-4 text-justify ">
         <p>
+          To whom it may concern: company logo and OTTK film’s official posters
+          in production resolution are listed{" "}
+          <Link className="underline" href="/resources">
+            here
+          </Link>
+          , don’t mess around with it, or Grinch will get you.
+        </p>
+        <p className="text-sm">
+          &copy; 2023 Hooligun Studios LLC. All rights reserved.
+        </p>
+        <p className="text-sm">
           Website by{" "}
           <a className="underline" href="https://lyovson.com">
             Lyovson.

@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import localFont from "next/font/local";
 import Image from "next/image";
 
+import Border from "./Border.jsx";
 import Video from "./Video.jsx";
 
 const berg = localFont({ src: "../../public/berg.ttf" });
@@ -16,7 +17,7 @@ export default function Latest() {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="flex flex-col items-center gap-4 p-8   lg:px-20"
+      className="relative flex flex-col items-center gap-4  p-8 pb-20 lg:px-20"
     >
       <section className="  flex flex-col items-center justify-between gap-4 md:flex-row md:items-start">
         <Image
@@ -33,7 +34,7 @@ export default function Latest() {
           </h2>
           <article className="">
             <p>
-              {`Our first project, OTTK, is a wild ride that you won't want to miss. It’s about one night in the life of a businessman who got bamboozled by his partner. And you know what he does? He hires an all-Armenian heist team from the diaspora to take back something important to him. Sounds like a recipe for success, right? But wait, it gets better. These guys speak different Armenian dialects and don't understand each other. Now, that leads to some hilarious situations, let me tell you. OTTK is a black comedy, with a lot of jokes and as much action as we could afford. And well, we put our heart, brain, and muscle into this movie to make it watchable even in 20 years, and we’re confident we've done just that. The reviews we've been getting are more than inspiring. People love this movie, and we couldn't be prouder. We poured everything we had into this project, and it shows. So, if you're looking for a good time, look no further than OTTK.`}
+              {`Our first project, the OTTK, is a wild ride that should not be missed, and it proved to be a genuine wild card. It is about one night in the life of a grated businessman who got bamboozled by his partner (who hasn't been at least once in a lifetime?). But this guy is determined to get back what’s his. To that end, he hires an all-Armenian heist team of professionals from all over the world. That might sound like a recipe for success, right? But wait, it gets better. These guys speak different Armenian dialects and don't understand each other a bit in addition to their cultural differences. Evidently, that inconvenience leads to some hilarious and awkward situations. OTTK is a black comedy with as much action as we could afford and unrestricted creativity of the authors. We put heart, brain, and muscle into this movie to make it watchable even in 20 years. And the reviews so far are more than inspiring. We did this project with all we had, and it is giving us heartening feedback. You should watch it. We can't promise everybody the same thrill, but those who have already seen it advise not to drink all daily intake of water before watching it.`}
             </p>
           </article>
           <footer className="  className={`max-w-`} flex justify-center gap-4 py-4 md:order-2 md:justify-start">
@@ -88,6 +89,20 @@ export default function Latest() {
           info={"Keep calm and plunge into the OTTK world with our soundtrack."}
         />
       </section>
+      <Image
+        src={"/border-short-header.svg"}
+        alt={"Stylized border with a skull"}
+        width="1200"
+        height="50"
+        className="absolute -bottom-12 z-10 mx-auto px-4   sm:-bottom-16 md:-bottom-20 lg:hidden"
+      />
+      <Image
+        src={"/border-long-header.svg"}
+        alt={"Stylized border with a skull"}
+        width="1200"
+        height="50"
+        className="absolute -bottom-16 z-10 mx-auto hidden  px-4 lg:block"
+      />
     </section>
   );
 }

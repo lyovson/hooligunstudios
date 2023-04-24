@@ -25,13 +25,13 @@ export default function Card({ info }) {
       variants={cardVariants}
       whileHover="hover"
       initial="initial"
-      className={`  flex  w-[400px]  items-center   `}
+      className={`  flex  w-[350px]  items-center   `}
     >
       <Image
         className={`  aspect-square  rounded-full `}
         src={info.image}
-        width={150}
-        height={150}
+        width={100}
+        height={100}
         alt={info.slug}
       />
       <aside className=" flex flex-col gap-8  p-4 ">
