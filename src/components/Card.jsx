@@ -36,8 +36,8 @@ export default function Card({ info }) {
       />
       <aside className=" flex flex-col gap-8  p-4 ">
         <article className=" flex flex-col">
-          <h3 className={` text-xl font-bold`}>{info.name}</h3>
-          <p className=" text-lg font-extralight">{info.role}</p>
+          <h3 className={`font-russian text-xl font-bold`}>{info.name}</h3>
+          <p className=" text-sm font-extralight">{info.role}</p>
         </article>
         <footer className="flex gap-2">
           <button onClick={() => window.open(`tel:${info.phone}`)}>

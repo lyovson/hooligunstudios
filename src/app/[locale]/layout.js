@@ -1,10 +1,17 @@
 import { useLocale } from "next-intl";
-import { Inter } from "next/font/google";
+import { Cuprum, Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--body-font" });
+const inter = Inter({
+  subsets: ["latin", "cyrillic"],
+  variable: "--body-font",
+});
+const cuprum = Cuprum({
+  subsets: ["latin", "cyrillic"],
+  variable: "--russian-font",
+});
 
 export const metadata = {
   title: "Hooligun Studios",
@@ -23,7 +30,7 @@ export default function RootLayout({ params, children }) {
     <html
       lang={locale}
       className={`
-    ${inter.variable} `}
+    ${inter.variable} ${cuprum.variable} }`}
     >
       <body className={` font-body text-lg leading-tight text-[#bab49e]`}>
         {children}

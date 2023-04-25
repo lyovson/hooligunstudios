@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <main className="mx-auto  flex max-w-[1200px] flex-col  ">
       <Header />
-
       <About />
       <Latest />
       <Crew />

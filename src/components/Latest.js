@@ -2,12 +2,9 @@ import { faImdb } from "@fortawesome/free-brands-svg-icons";
 import { faSafari } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
-import localFont from "next/font/local";
 import Image from "next/image";
 
 import Video from "./Video.jsx";
-
-const berg = localFont({ src: "../../public/berg.ttf" });
 
 export default function Latest() {
   const t = useTranslations("latest");
@@ -31,7 +28,7 @@ export default function Latest() {
         />
 
         <article className="flex flex-col  gap-4">
-          <h2 className={` ${berg.className} py-4  text-left  text-3xl`}>
+          <h2 className={`font-russian py-4  text-left  text-3xl`}>
             {t("title")}
           </h2>
           <article className="">

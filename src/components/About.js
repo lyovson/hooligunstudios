@@ -1,8 +1,5 @@
 import { useTranslations } from "next-intl";
-import localFont from "next/font/local";
 import Image from "next/image";
-
-const berg = localFont({ src: "../../public/berg.ttf" });
 
 export default function About() {
   const t = useTranslations("about");
@@ -17,7 +14,7 @@ export default function About() {
         className="relative flex  flex-col items-center  justify-between  gap-10  p-8 pb-16    md:px-20"
       >
         <article className="lg:max-w-[65%]  ">
-          <h2 className={` ${berg.className} py-4   text-left  text-3xl`}>
+          <h2 className={` font-russian  py-4 text-left     text-3xl`}>
             {t("title")}
           </h2>
           <p className="  ">{t("about")}</p>

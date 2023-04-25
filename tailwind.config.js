@@ -14,8 +14,8 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        hedaing: ["var(--berg-font)"],
         body: ["var(--body-font)"],
+        russian: ["var(--russian-font)"],
       },
     },
   },
