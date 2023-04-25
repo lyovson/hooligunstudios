@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 
 import { socials } from "../data/socials.js";
 
@@ -14,7 +14,7 @@ export default function Header() {
       }}
       className="p8 relative "
     >
-      <section className=" mb-10 flex flex-col items-center justify-between gap-4 px-10 md:mb-6  lg:mb-0  lg:max-h-[200px] lg:flex-row lg:p-2">
+      <section className=" mb-10 flex flex-col items-center justify-between gap-4 px-10  lg:mb-0  lg:max-h-[200px] lg:flex-row lg:p-2">
         <Link href="/">
           <Image
             src={"/logonew.png"}
@@ -27,22 +27,32 @@ export default function Header() {
         <h1 id="title" className=" opacity-0">
           Hooligun Studios
         </h1>
+        <section className=" flex flex-col items-center justify-between gap-4 lg:items-end lg:gap-20">
+          <ul className="flex gap-2 text-lg ">
+            <Link href="#" locale="en">
+              En
+            </Link>
+            <Link href="#" locale="ru">
+              Ru
+            </Link>
+          </ul>
 
-        <ul className="  flex justify-end  gap-2 text-lg lg:mr-[60px] lg:self-end">
-          {socials.map((social) => {
-            return (
-              <li key={social.name}>
-                <a
-                  href={social.url}
-                  target="blank"
-                  className="  flex capitalize  "
-                >
-                  <FontAwesomeIcon icon={social.icon} className="h-6 w-6 " />
-                </a>
-              </li>
-            );
-          })}
-        </ul>
+          <ul className="  flex justify-end  gap-2 text-lg ">
+            {socials.map((social) => {
+              return (
+                <li key={social.name}>
+                  <a
+                    href={social.url}
+                    target="blank"
+                    className="  flex capitalize  "
+                  >
+                    <FontAwesomeIcon icon={social.icon} className="h-6 w-6 " />
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
       </section>
       <Image
         src={"/border-little.svg"}

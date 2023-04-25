@@ -1,6 +1,7 @@
+import { useLocale } from "next-intl";
 import { Inter } from "next/font/google";
+import { notFound } from "next/navigation";
 
-import Header from "../components/Header.js";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--body-font" });
@@ -10,10 +11,17 @@ export const metadata = {
   description: "Movie and Music Production Studio from Armenia",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ params, children }) {
+  const locale = useLocale();
+
+  // Show a 404 error if the user requests an unknown locale
+  if (params.locale !== locale) {
+    notFound();
+  }
+
   return (
     <html
-      lang="en"
+      lang={locale}
       className={`
     ${inter.variable} `}
     >

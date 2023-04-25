@@ -6,11 +6,6 @@ import YouTube from "react-youtube";
 
 const berg = localFont({ src: "../../public/berg.ttf" });
 
-const videoVariants = {
-  initial: { opacity: 0 },
-  animate: { opacity: 100 },
-};
-
 export default function Video({ videoId, title, info, className }) {
   return (
     <motion.section

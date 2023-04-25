@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import localFont from "next/font/local";
 import Image from "next/image.js";
 
@@ -7,6 +8,8 @@ import Card from "./Card.jsx";
 const berg = localFont({ src: "../../public/berg.ttf" });
 
 export default function Crew() {
+  const t = useTranslations("crew");
+
   return (
     <section
       style={{
@@ -17,11 +20,20 @@ export default function Crew() {
       className=" relative flex flex-col pb-12 pt-10"
     >
       <h2 className={` ${berg.className} py-4   text-center  text-3xl`}>
-        CREW:
+        {t("title")}
       </h2>
       <ssection className="flex flex-wrap justify-center    gap-4  ">
         {crew.map((info) => {
-          return <Card info={info} key={info.slug} />;
+          return (
+            <Card
+              info={{
+                ...info,
+                name: t(`${info.slug}.name`),
+                role: t(`${info.slug}.role`),
+              }}
+              key={info.slug}
+            />
+          );
         })}
       </ssection>
       <Image
