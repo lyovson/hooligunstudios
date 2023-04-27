@@ -14,7 +14,7 @@ export const socials = [
   },
   {
     name: "instagram",
-    url: "https://instagram.com/ottk_film",
+    url: "https://www.instagram.com/hooligunstudios/",
     icon: faInstagram,
   },
   {
