@@ -28,7 +28,7 @@ export default function Latest() {
         />
 
         <article className="flex flex-col  gap-4">
-          <h2 className={`font-russian py-4  text-left  text-3xl`}>
+          <h2 className={`py-4 text-left  font-russian  text-3xl`}>
             {t("title")}
           </h2>
           <article className="">
@@ -37,7 +37,7 @@ export default function Latest() {
           <footer className="  className={`max-w-`} flex justify-center gap-4 py-4 md:order-2 md:justify-start">
             <a
               className="flex gap-2 rounded-lg border-2 border-[#bab49e] p-2 shadow-md "
-              href="https://ottkfilm.com"
+              href="#"
               target="_blank"
             >
               <FontAwesomeIcon icon={faSafari} className="h-6 w-6 " />
