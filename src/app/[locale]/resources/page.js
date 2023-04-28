@@ -12,7 +12,7 @@ export default function Resources() {
         />
         <img src="/resources-logo-new.png" alt="Hooligun Studios Brand Logo" />
         <img
-          src="/logo-signature.png"
+          src="/logo-simple.png"
           alt="Hooligun Studios Signature Logo"
           className="hidden"
         />
