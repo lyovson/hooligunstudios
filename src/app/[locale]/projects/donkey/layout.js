@@ -45,7 +45,7 @@ export default function ProjectLayout({ children }) {
   }
   return (
     <section className={`  flex flex-col lg:flex-row`}>
-      <section className="relative lg:pt-20">
+      <section className="relative lg:pt-24">
         {children}
         <Menu />
       </section>
