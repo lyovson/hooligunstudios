@@ -44,9 +44,11 @@ export default function ProjectLayout({ children }) {
     );
   }
   return (
-    <section className={` relative flex flex-col lg:flex-row`}>
-      <section className="max-w-[90%]">{children}</section>
-      <Menu />
+    <section className={`  flex flex-col lg:flex-row`}>
+      <section className="relative max-w-[90%]">
+        {children}
+        <Menu />
+      </section>
     </section>
   );
 }
