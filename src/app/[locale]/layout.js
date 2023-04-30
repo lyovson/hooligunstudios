@@ -2,6 +2,7 @@ import { useLocale } from "next-intl";
 import { Cuprum, Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 
+import Header from "../../components/Header.js";
 import "./globals.css";
 
 const inter = Inter({
@@ -32,7 +33,10 @@ export default function RootLayout({ params, children }) {
       className={`
     ${inter.variable} ${cuprum.variable} }`}
     >
-      <body className={` font-body text-lg leading-tight text-[#bab49e]`}>
+      <body
+        className={`mx-auto  flex max-w-[1200px] flex-col font-body text-lg leading-tight text-[#bab49e]`}
+      >
+        <Header />
         {children}
       </body>
     </html>

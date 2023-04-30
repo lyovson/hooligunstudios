@@ -21,7 +21,7 @@ export default function Header() {
             alt={"Hooligun studios logo"}
             width="300"
             height="200"
-            className="lg:ml-[60px] "
+            className=" "
           />
         </Link>
         <h1 id="title" className=" opacity-0">
