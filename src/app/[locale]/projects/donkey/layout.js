@@ -14,7 +14,12 @@ export default function ProjectLayout({ children }) {
 
   const onEnter = (e) => {
     if (e.key === "Enter") {
-      if (value === "TopSecret!") {
+      if (
+        value === "TopSecret!" ||
+        value === "Papian" ||
+        value === "Hekimian" ||
+        value === "Saharian"
+      ) {
         setLogged(true);
       } else {
         setValue("");
@@ -27,7 +32,7 @@ export default function ProjectLayout({ children }) {
       <section className="m-16 flex flex-col gap-2">
         <label htmlFor="password">Password:</label>
         <input
-          type="text"
+          type="password"
           value={value}
           onChange={onChange}
           onKeyDown={onEnter}

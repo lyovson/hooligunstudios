@@ -1,9 +1,9 @@
 export default function Donkey() {
   return (
     <main className="  ">
-      <section className="mx-auto mb-12 flex max-w-[1200px] flex-col p-4 ">
-        <article className=" flex flex-col gap-2 text-lg lg:w-[65%]">
-          <h2 className="py-4 text-left   font-russian     text-5xl">
+      <section className="mx-auto mb-12 flex max-w-[1200px] flex-col p-4 lg:pl-28">
+        <article className="flex  flex-col gap-2 text-lg  lg:w-[80%] lg:text-right">
+          <h2 className="py-4   font-russian     text-5xl">
             ОСЛИК, НЕ УМИРАЙ:
           </h2>
           <p className="-mt-4 mb-4 text-base italic">Тритмент</p>

@@ -17,7 +17,7 @@ const navItemVariants = {
 
 export default function Menu() {
   return (
-    <div className=" fixed bottom-0 left-0 right-0 flex items-center justify-around border-t  border-stone-900 bg-stone-900 py-2 text-[#bab49e] shadow-md lg:bottom-auto lg:left-auto lg:right-16 lg:top-1/2 lg:h-[50%] lg:w-[10%] lg:-translate-y-1/2 lg:transform lg:flex-col  lg:items-start lg:rounded-xl lg:border-t-0 lg:bg-opacity-80 lg:p-2">
+    <div className=" fixed bottom-0 left-0 right-0 flex items-center justify-around border-t  border-stone-900 bg-stone-900 py-2 text-[#bab49e] shadow-md lg:bottom-auto lg:left-auto lg:right-[16%] lg:top-1/2 lg:h-[30%] lg:w-[10%] lg:-translate-y-1/2 lg:transform lg:flex-col  lg:items-start lg:rounded-xl lg:border-t-0 lg:bg-transparent lg:bg-opacity-80 lg:p-2">
       {[
         { href: "/projects/donkey/ru", icon: faBarcode, label: "Тритмент" },
         {

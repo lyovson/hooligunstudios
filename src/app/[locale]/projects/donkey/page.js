@@ -2,7 +2,7 @@ import SquareCard from "./SquareCard.jsx";
 
 export default function Cast() {
   return (
-    <main className="mb-12 flex  flex-col gap-4 p-8">
+    <main className="mb-12 flex  flex-col gap-4 p-8 ">
       <h2 className="py-4 text-left font-russian text-5xl">Прайм Каст:</h2>
       <section className="flex flex-col items-center justify-center gap-4 ">
         <SquareCard
