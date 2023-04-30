@@ -1,4 +1,4 @@
-import SquareCard from "../../SquareCard.jsx";
+import SquareCard from "./SquareCard.jsx";
 
 export default function Cast() {
   return (
