@@ -28,6 +28,13 @@ export default function Cast() {
             image: "/donkey/babich.png",
           }}
         />
+        <SquareCard
+          info={{
+            name: "Милена Микаелян",
+            role: "Резидент студии Hooligun Studios, начинающая актриса с большим диапазоном талантов.",
+            image: "/donkey/milena.png",
+          }}
+        />
       </section>
     </main>
   );
