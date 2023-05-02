@@ -18,11 +18,11 @@ export default function Menu() {
   return (
     <div className=" fixed bottom-0 left-0 right-0 flex items-center justify-around border-b-0 border-t border-[#bab49e] bg-black py-2 text-[#bab49e] shadow-md lg:absolute lg:bottom-auto lg:right-0 lg:top-0 lg:justify-center lg:gap-8 lg:border-b lg:border-t-0 lg:p-8">
       {[
-        { href: "/projects/donkey/hy", icon: faBarcode, label: "Սեղմագիր" },
+        { href: "/projects/donkey/hy", icon: faBarcode, label: "Թրիթմենթ" },
         {
           href: "/projects/donkey/hy/cast",
           icon: faPeopleGroup,
-          label: "Հիմնական Կազմ",
+          label: "Դերասանական Կազմ",
         },
 
         {
