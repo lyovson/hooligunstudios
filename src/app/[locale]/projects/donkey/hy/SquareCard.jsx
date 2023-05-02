@@ -36,7 +36,7 @@ export default function Card({ info }) {
           )}
           {!info.approved && (
             <p className=" my-8 w-[120px]  bg-yellow-700 p-2 text-center text-xs text-black ">
-              Բանակցություն
+              Ցանկալի Թեկնածու
             </p>
           )}
         </article>
