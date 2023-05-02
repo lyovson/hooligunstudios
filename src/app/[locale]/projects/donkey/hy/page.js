@@ -3,8 +3,8 @@ export default function Donkey() {
     <main className="  ">
       <section className="mx-auto mb-12 flex max-w-[1200px] flex-col p-4 lg:pl-28">
         <article className="flex  flex-col gap-2 text-lg  lg:w-[80%] ">
-          <h2 className="py-4   font-russian     text-4xl">ԷՇ ՄԻ ՍԱՏԿԻ:</h2>
-          <p className="-mt-4 mb-4 text-base italic">Սեղմագիր</p>
+          <h2 className="py-4   font-russian     text-3xl">ԷՇ ՄԻ ՍԱՏԿԻ:</h2>
+          <p className="-mt-4 mb-4 text-base italic">Թրիթմենթ</p>
           <p>
             Դեկտեմբերի 31-ի լուսադեմին, հարուստ հագուկապով հիսսունն անց տարիքի
             երկու տղամարդ զրուցելով դուրս են գալիս ինչ-որ ակումբից։
