@@ -1,6 +1,6 @@
 "use client";
 
-import SquareCard from "../../SquareCard.jsx";
+import SquareCard from "../SquareCard.jsx";
 
 export default function Cast() {
   return (
@@ -13,7 +13,7 @@ export default function Cast() {
             bio: "Известный реп-артист, актер. Имеет лояльную фан-базу. С каждым днем набирает все больше популярности среди молодежи. Последние треки набирают миллионы просмотров.",
             image: "/donkey/chilla.png",
             approved: true,
-            role: "Папа - Барт",
+            role: "Папа - Виктор",
           }}
         />
         <SquareCard
