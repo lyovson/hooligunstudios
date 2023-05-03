@@ -3,9 +3,7 @@ import Video from "../../../../../../components/Video.jsx";
 export default function Media() {
   return (
     <main className="mb-12 flex   flex-col gap-4 p-8 ">
-      <h2 className="py-4 text-left font-russian text-3xl">
-        Музыкальные Референсы:
-      </h2>
+      <h2 className="py-4 text-left  text-3xl">Музыкальные Референсы:</h2>
       <sections className="flex flex-row flex-wrap gap-4">
         <Video
           className={` max-w-[350px]`}
@@ -26,9 +24,7 @@ export default function Media() {
           info={`A great song from '00s`}
         />
       </sections>
-      <h2 className="py-4 text-left font-russian text-3xl">
-        Визуальные Референсы:
-      </h2>
+      <h2 className="py-4 text-left  text-3xl">Визуальные Референсы:</h2>
       <sections className="flex flex-row flex-wrap gap-4">
         <Video
           className={` max-w-[350px]`}

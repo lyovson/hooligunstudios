@@ -3,16 +3,12 @@ export default function Donkey() {
     <main className="  ">
       <section className="mx-auto mb-12 flex max-w-[1200px] flex-col p-4 lg:pl-28">
         <article className="flex  flex-col gap-2 text-lg  lg:w-[80%] ">
-          <h2 className="py-4 font-russian text-3xl font-bold">
-            Donkey Don't Die
-          </h2>
+          <h2 className="py-4 text-3xl font-bold">Donkey Don&apos;t Die</h2>
           <p className="">
-            From Misfortune to Millionaire: A Family's Journey to Unexpected
-            Wealth and Unbreakable Bonds.
+            From Misfortune to Millionaire: A Family&apos;s Journey to
+            Unexpected Wealth and Unbreakable Bonds.
           </p>
-          <h3 className="py-4 font-russian text-2xl font-bold">
-            Short Synopsis:
-          </h3>
+          <h3 className="py-4  text-2xl font-bold">Short Synopsis:</h3>
           <p>
             A story about two wealthy men who bet on whether anyone can become a
             millionaire with the right motivation. After a series of events,
@@ -23,40 +19,40 @@ export default function Donkey() {
             earn the same amount. The men of the family team up to earn the
             money, with Victor partnering with a farmer to enter an
             international wine competition, and his grandfather starting to play
-            the guitar in the park for tips. Meanwhile, Victor's daughter, Nika,
-            goes through a difficult teenage phase, and his son, Vik-Vik, is a
-            precocious 7-year-old. In the end, the family comes together in a
-            heartwarming finale, showcasing their talents and finding unexpected
-            success.
+            the guitar in the park for tips. Meanwhile, Victor&apos;s daughter,
+            Nika, goes through a difficult teenage phase, and his son, Vik-Vik,
+            is a precocious 7-year-old. In the end, the family comes together in
+            a heartwarming finale, showcasing their talents and finding
+            unexpected success.
           </p>
-          <h3 className="py-4 font-russian text-2xl font-bold">Synopsis:</h3>
+          <h3 className="py-4 text-2xl font-bold">Synopsis:</h3>
           <p>
             A heartwarming and comedic tale that follows the journey of Victor,
             a man who unexpectedly finds himself facing a series of challenges
             and setbacks. After losing his job at a wine factory and discovering
-            that a batch of wine made from his friend Sako's grapes had been
-            spoiled, Victor's life takes an unexpected turn.
+            that a batch of wine made from his friend Sako&apos;s grapes had
+            been spoiled, Victor&apos;s life takes an unexpected turn.
           </p>
           <p>
-            Despite the hardships, Victor's unwavering determination and the
-            support of his family propel him forward. Alongside his wife Lara,
-            father Horacio, daughter Nika, and son Vik-Vik, they embark on a
-            quest to earn one million dollars within a year to claim a
+            Despite the hardships, Victor&apos;s unwavering determination and
+            the support of his family propel him forward. Alongside his wife
+            Lara, father Horacio, daughter Nika, and son Vik-Vik, they embark on
+            a quest to earn one million dollars within a year to claim a
             staggering billion-dollar inheritance.
           </p>
           <p>
             As the family navigates the obstacles in their path, they discover
             their hidden talents and form unexpected alliances. Grandpa
-            Horacio's musical talents captivate a crowd, Nika finds solace in
-            the support of a secret admirer named Mark, and young Vik-Vik
+            Horacio&apos;s musical talents captivate a crowd, Nika finds solace
+            in the support of a secret admirer named Mark, and young Vik-Vik
             embarks on a clever bartering project.
           </p>
           <p>
-            Meanwhile, Vartan, Victor's second cousin, takes a risky shortcut to
-            accumulate the necessary funds, leading to a rivalry between the
-            two. Their endeavors culminate in a wine competition in Paris, where
-            Victor and Sako's wine, unknowingly altered by Vartan's sabotage,
-            faces judgment.
+            Meanwhile, Vartan, Victor&apos;s second cousin, takes a risky
+            shortcut to accumulate the necessary funds, leading to a rivalry
+            between the two. Their endeavors culminate in a wine competition in
+            Paris, where Victor and Sako&apos;s wine, unknowingly altered by
+            Vartan&apos;s sabotage, faces judgment.
           </p>
           <p>
             Amidst the twists and turns, the family finds unexpected success and
@@ -67,11 +63,11 @@ export default function Donkey() {
             finding joy in the journey itself.
           </p>
           <p>
-            "Donkey Don't Die" is a heartwarming and humorous exploration of
-            family bonds, personal aspirations, and the unpredictable nature of
-            life's challenges.
+            &quot;Donkey Don&apos;t Die&quot; is a heartwarming and humorous
+            exploration of family bonds, personal aspirations, and the
+            unpredictable nature of life&apos;s challenges.
           </p>
-          <h3 className="py-4 font-russian text-2xl font-bold">Treatment:</h3>
+          <h3 className="py-4 text-2xl font-bold">Treatment:</h3>
           <p>
             On the early morning of December 31st, two men in their 50s, dressed
             in affluent attire, emerge from the bustling club.
@@ -89,7 +85,7 @@ export default function Donkey() {
             wealthy man quickly sends a message from it. After completing the
             task, he returns the phone to the stranger, along with a $100 bill
             as a gesture of gratitude. However, the stranger kindly declines the
-            money, stating that it isn't necessary.
+            money, stating that it isn&apos;t necessary.
           </p>
           <p>
             Continuing on his path, Victor, a man in his 40s, proceeds to his
@@ -103,16 +99,17 @@ export default function Donkey() {
           <p>
             Feeling remorseful, Victor notices farmer Sako standing disheartened
             near the entrance of the factory. It dawns on Victor that the batch
-            of wine that was discarded had been made from Sako's grapes, leading
-            him to feel even more regretful about the situation.
+            of wine that was discarded had been made from Sako&apos;s grapes,
+            leading him to feel even more regretful about the situation.
           </p>
           <p>
-            At home, Victor's wife, father, daughter, and son await his return.
+            At home, Victor&apos;s wife, father, daughter, and son await his
+            return.
           </p>
           <p>
-            Victor's wife, LARA, is a beautiful woman who works as an accountant
-            in a seemingly mundane corporation. Her occupation may lack
-            excitement, but she diligently fulfills her responsibilities to
+            Victor&apos;s wife, LARA, is a beautiful woman who works as an
+            accountant in a seemingly mundane corporation. Her occupation may
+            lack excitement, but she diligently fulfills her responsibilities to
             support their family.
           </p>
           <p>
@@ -120,11 +117,11 @@ export default function Donkey() {
           </p>
           <p>
             Daughter, Nika, is going through a difficult teenage phase where
-            she's unsure about what she wants from life.
+            she&apos;s unsure about what she wants from life.
           </p>
           <p>
-            Victor's son, Vik-Vik, is a bright and precocious 7-year-old boy who
-            approaches life with a remarkably serious demeanor.
+            Victor&apos;s son, Vik-Vik, is a bright and precocious 7-year-old
+            boy who approaches life with a remarkably serious demeanor.
           </p>
           <p>
             As Victor arrives home, he shares the disheartening news of his
@@ -136,34 +133,36 @@ export default function Donkey() {
           </p>
           <p>
             Unbeknownst to them, the food left unattended in the kitchen
-            ignites, causing a small fire to break out. The family's attention
-            is abruptly diverted to the urgent need to extinguish the fire and
-            ensure everyone's safety, leaving them disheartened by both Victor's
-            job loss and the ruined meal.
+            ignites, causing a small fire to break out. The family&apos;s
+            attention is abruptly diverted to the urgent need to extinguish the
+            fire and ensure everyone&apos;s safety, leaving them disheartened by
+            both Victor&apos;s job loss and the ruined meal.
           </p>
           <p>
-            The doorbell rings. Victor's second cousin, Vartan, and his wife,
-            Bella, arrive to celebrate the new year together. Upon learning of
-            the ruined dinner, they consider going to another relative's house
-            instead. However, with only half an hour left until the new year,
-            they decide to stay. Vartan, not wanting his thoughtful gift to go
-            to waste, opens the bottle of champagne he had brought along.
+            The doorbell rings. Victor&apos;s second cousin, Vartan, and his
+            wife, Bella, arrive to celebrate the new year together. Upon
+            learning of the ruined dinner, they consider going to another
+            relative&apos;s house instead. However, with only half an hour left
+            until the new year, they decide to stay. Vartan, not wanting his
+            thoughtful gift to go to waste, opens the bottle of champagne he had
+            brought along.
           </p>
           <p>
-            Everyone’s lost in their own thoughts and emotions, they raise their
-            glasses of champagne together. In this bittersweet moment, Victor
-            silently wishes that God should test him with big money. As the
-            clock nears midnight and anticipation fills the air, the doorbell
-            rings once more.
+            Everyone&apos;s lost in their own thoughts and emotions, they raise
+            their glasses of champagne together. In this bittersweet moment,
+            Victor silently wishes that God should test him with big money. As
+            the clock nears midnight and anticipation fills the air, the
+            doorbell rings once more.
           </p>
           <p>
             As the family stands in awe at the door, strangers in elegant suits
             enter their home. The figure in charge, Barry Lewis, reveals
-            unexpected news. He explains that the uncle of Victor's grandfather
-            has passed away, and due to Victor being the sole living relative,
-            he is set to inherit a staggering sum of one billion dollars.
-            However, there's a catch - the will states that he must first earn
-            one million dollars through honest work within a year.
+            unexpected news. He explains that the uncle of Victor&apos;s
+            grandfather has passed away, and due to Victor being the sole living
+            relative, he is set to inherit a staggering sum of one billion
+            dollars. However, there&apos;s a catch - the will states that he
+            must first earn one million dollars through honest work within a
+            year.
           </p>
           <p>
             Suddenly, a problem arises as Vartan declares that he, being older
@@ -200,34 +199,34 @@ export default function Donkey() {
           </p>
           <p>
             Later, Mark and his friends come up with a heartwarming plan to turn
-            Grandpa Horacio's guitar performance into an extraordinary show.
-            They bring along large audio monitors and DJ equipment, transforming
-            the park into a vibrant stage. With the equipment set up, Mark joins
-            in, contributing his own musical talents, creating a captivating
-            atmosphere that captures the attention of onlookers.
+            Grandpa Horacio&apos;s guitar performance into an extraordinary
+            show. They bring along large audio monitors and DJ equipment,
+            transforming the park into a vibrant stage. With the equipment set
+            up, Mark joins in, contributing his own musical talents, creating a
+            captivating atmosphere that captures the attention of onlookers.
           </p>
           <p>
             The once-quiet park now becomes alive with music and joy, as people
             gather around to witness the impromptu concert. Nika, who had run
             away earlier, returns to the scene, amazed by the transformation and
-            touched by Mark's gesture of support.
+            touched by Mark&apos;s gesture of support.
           </p>
           <p>
-            Nika, finding comfort in Mark's presence, joins him and Grandpa
+            Nika, finding comfort in Mark&apos;s presence, joins him and Grandpa
             Horacio in a musical performance. Her sweet vocals add an enchanting
             touch to the already captivating atmosphere.
           </p>
           <p>
-            As the trio's music fills the air, a passerby is captivated by their
-            talent and is revealed to be a music producer. Impressed by their
-            performance, he approaches them and offers them a record deal on the
-            spot.
+            As the trio&apos;s music fills the air, a passerby is captivated by
+            their talent and is revealed to be a music producer. Impressed by
+            their performance, he approaches them and offers them a record deal
+            on the spot.
           </p>
           <p>
-            Inspired by his father's quest to earn a million dollars, 7-year-old
-            Vik-Vik approaches Victor and requests a metal pin. Curious about
-            his son's intentions, Victor provides him with the pin, unaware of
-            Vik-Vik's secret project.
+            Inspired by his father&apos;s quest to earn a million dollars,
+            7-year-old Vik-Vik approaches Victor and requests a metal pin.
+            Curious about his son&apos;s intentions, Victor provides him with
+            the pin, unaware of Vik-Vik&apos;s secret project.
           </p>
           <p>
             With determination, Vik-Vik quietly embarks on his own mission to
@@ -238,7 +237,7 @@ export default function Donkey() {
           <p>
             Tensions rise between Victor and his wife, Lara, as she starts
             coming home late due to extra work. Victor is indignant, but Lara
-            defends herself, highlighting her sacrifices for the family's
+            defends herself, highlighting her sacrifices for the family&apos;s
             financial goals.
           </p>
           <p>
@@ -252,11 +251,11 @@ export default function Donkey() {
           </p>
           <p>
             Victor faces a series of challenges, including the interference of
-            Vartan. In Victor's and Sako's small garage factory, the filtration
-            equipment unexpectedly breaks down, revealing Vartan's deliberate
-            sabotage. With no immediate solution available, they are left with
-            no choice but to retrieve an old and rusty filtration bowl from the
-            basement.
+            Vartan. In Victor&apos;s and Sako&apos;s small garage factory, the
+            filtration equipment unexpectedly breaks down, revealing
+            Vartan&apos;s deliberate sabotage. With no immediate solution
+            available, they are left with no choice but to retrieve an old and
+            rusty filtration bowl from the basement.
           </p>
           <p>
             After spending a considerable amount of time brainstorming, Victor
@@ -277,28 +276,28 @@ export default function Donkey() {
           </p>
           <p>
             Upon receiving an anonymous message from Vartan with a photo of Lara
-            entering a suspicious establishment, Victor's worst suspicions are
-            ignited. Determined to uncover the truth, he rushes to his wife's
-            workplace and finds her leaving, getting into a car that leads him
-            to a mysterious and dimly lit location. Victor clandestinely follows
-            his wife and witnesses her entering a nightclub. Overwhelmed by a
-            mix of emotions, he attempts to enter the establishment but is
-            denied entry by the security as his name is not on the guest list.
-            Undeterred, Victor manages to sneak in through the back door of the
-            kitchen, finding himself in a smoky, dark, and enigmatic club filled
-            with unfamiliar faces.
+            entering a suspicious establishment, Victor&apos;s worst suspicions
+            are ignited. Determined to uncover the truth, he rushes to his
+            wife&apos;s workplace and finds her leaving, getting into a car that
+            leads him to a mysterious and dimly lit location. Victor
+            clandestinely follows his wife and witnesses her entering a
+            nightclub. Overwhelmed by a mix of emotions, he attempts to enter
+            the establishment but is denied entry by the security as his name is
+            not on the guest list. Undeterred, Victor manages to sneak in
+            through the back door of the kitchen, finding himself in a smoky,
+            dark, and enigmatic club filled with unfamiliar faces.
           </p>
           <p>
-            As the stage opens, Victor's heart swells with love and admiration
-            as he sees Lara, dressed elegantly, singing beautifully with a jazz
-            band. The magic of the moment rekindles his deep affection for his
-            wife, reminding him of her talent and the reasons he fell in love
-            with her.
+            As the stage opens, Victor&apos;s heart swells with love and
+            admiration as he sees Lara, dressed elegantly, singing beautifully
+            with a jazz band. The magic of the moment rekindles his deep
+            affection for his wife, reminding him of her talent and the reasons
+            he fell in love with her.
           </p>
           <p>
-            However, the security soon notices Victor's unauthorized presence
-            and forcefully ejects him from the club, abruptly ending the
-            fleeting moment of connection. Lara rushes out of the club. In a
+            However, the security soon notices Victor&apos;s unauthorized
+            presence and forcefully ejects him from the club, abruptly ending
+            the fleeting moment of connection. Lara rushes out of the club. In a
             tender and heartfelt conversation, they begin to unravel the
             misunderstandings and suspicions that had driven a wedge between
             them.
@@ -336,10 +335,10 @@ export default function Donkey() {
           <p>
             After a delayed arrival of the chemical analysis report, Victor
             finally receives the results for their wine. To his horror, he
-            discovers that the wine's chemical composition has been unusually
-            altered, most likely due to Vartan's sabotage. Victor realizes that
-            the wine they entered into the contest may have unintended
-            consequences.
+            discovers that the wine&apos;s chemical composition has been
+            unusually altered, most likely due to Vartan&apos;s sabotage. Victor
+            realizes that the wine they entered into the contest may have
+            unintended consequences.
           </p>
           <p>
             Victor, desperate to prevent the wine from being tasted during the
@@ -369,18 +368,19 @@ export default function Donkey() {
           </p>
           <p>
             Victor receives mail from the international wine contest informing
-            him that his wine has won the "worst wine" nomination. As a
-            consolation prize, he is awarded a bottle of the best wine. However,
-            underneath that mail, he finds another letter from a pharmaceutical
-            company expressing interest in the fermentation recipe he used
-            during the winemaking process. They offer him a substantial sum and
-            propose a partnership for the patent of a hair regrowth product.
+            him that his wine has won the &quot;worst wine&quot; nomination. As
+            a consolation prize, he is awarded a bottle of the best wine.
+            However, underneath that mail, he finds another letter from a
+            pharmaceutical company expressing interest in the fermentation
+            recipe he used during the winemaking process. They offer him a
+            substantial sum and propose a partnership for the patent of a hair
+            regrowth product.
           </p>
           <p>
             The family, having forgotten about the inheritance, joyfully
-            celebrates New Year's Eve with the new friends they made throughout
-            the year. However, the loan shark and his goons arrive at Vartan's
-            house.
+            celebrates New Year&apos;s Eve with the new friends they made
+            throughout the year. However, the loan shark and his goons arrive at
+            Vartan&apos;s house.
           </p>
         </article>
       </section>

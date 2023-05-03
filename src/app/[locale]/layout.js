@@ -1,18 +1,8 @@
 import { useLocale } from "next-intl";
-import { Cuprum, Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 
 import Header from "../../components/Header.js";
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin", "cyrillic"],
-  variable: "--body-font",
-});
-const cuprum = Cuprum({
-  subsets: ["latin", "cyrillic"],
-  variable: "--russian-font",
-});
 
 export const metadata = {
   title: "Hooligun Studios",
@@ -28,13 +18,9 @@ export default function RootLayout({ params, children }) {
   }
 
   return (
-    <html
-      lang={locale}
-      className={`
-    ${inter.variable} ${cuprum.variable} }`}
-    >
+    <html lang={locale} className={``}>
       <body
-        className={`mx-auto  flex max-w-[1200px] flex-col font-body text-lg leading-tight text-[#bab49e]`}
+        className={`mx-auto  flex max-w-[1200px] flex-col text-lg leading-tight text-[#bab49e]`}
       >
         <Header />
         {children}

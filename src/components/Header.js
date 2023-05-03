@@ -28,7 +28,7 @@ export default function Header() {
           Hooligun Studios
         </h1>
         <section className=" flex flex-col items-center justify-between gap-4 lg:items-end lg:gap-20">
-          <ul className="flex gap-2 font-russian text-lg ">
+          <ul className="flex gap-2 text-lg ">
             <Link href="#" locale="en">
               Eng
             </Link>
