@@ -5,33 +5,24 @@ export default function Donkey() {
         <article className="flex  flex-col gap-2 text-lg  lg:w-[80%] ">
           <h2 className="py-4 text-3xl font-bold">Donkey Don&apos;t Die</h2>
           <p className="">
-            From Misfortune to Millionaire: A Family&apos;s Journey to
-            Unexpected Wealth and Unbreakable Bonds.
+            With the right motivation, even a misfortunate person can become a millionaire.
           </p>
           <h3 className="py-4  text-2xl font-bold">Short Synopsis:</h3>
           <p>
-            A story about two wealthy men who bet on whether anyone can become a
-            millionaire with the right motivation. After a series of events,
-            Victor, a man who has just lost his job, is informed that he stands
-            to inherit a billion dollars from his late uncle if he can first
-            earn a million dollars through honest work within a year. The catch
-            is that his second cousin, Vartan, also stands to inherit if he can
-            earn the same amount. The men of the family team up to earn the
-            money, with Victor partnering with a farmer to enter an
-            international wine competition, and his grandfather starting to play
-            the guitar in the park for tips. Meanwhile, Victor&apos;s daughter,
-            Nika, goes through a difficult teenage phase, and his son, Vik-Vik,
-            is a precocious 7-year-old. In the end, the family comes together in
-            a heartwarming finale, showcasing their talents and finding
-            unexpected success.
+            Victor, a man who has just lost his job, is informed that he will inherit
+            one billion dollars from his late uncle on condition that he first earns
+            one million dollars through honest work within a year. The catch is that
+            his second cousin, Felix, also stands to inherit. Victor teams up with
+            his family to earn the million. On the other hand, Felix does everything
+            to stop him. Eventually, the family comes together in a heartwarming finale,
+            showcasing their talents and finding unexpected success.
           </p>
           <h3 className="py-4 text-2xl font-bold">Synopsis:</h3>
           <p>
             A heartwarming and comedic tale that follows the journey of Victor,
             a man who unexpectedly finds himself facing a series of challenges
-            and setbacks. After losing his job at a wine factory and discovering
-            that a batch of wine made from his friend Sako&apos;s grapes had
-            been spoiled, Victor&apos;s life takes an unexpected turn.
+            and setbacks. After losing his job at a wine factory, Victor&apos;s
+            life takes an unexpected turn.
           </p>
           <p>
             Despite the hardships, Victor&apos;s unwavering determination and
@@ -48,17 +39,16 @@ export default function Donkey() {
             embarks on a clever bartering project.
           </p>
           <p>
-            Meanwhile, Vartan, Victor&apos;s second cousin, takes a risky
-            shortcut to accumulate the necessary funds, leading to a rivalry
-            between the two. Their endeavors culminate in a wine competition in
-            Paris, where Victor and Sako&apos;s wine, unknowingly altered by
-            Vartan&apos;s sabotage, faces judgment.
+            Meanwhile, Felix, Victor&apos;s second cousin, takes a risky shortcut
+            to accumulate the necessary funds, leading to a rivalry between the two.
+            Their endeavors culminate in an international wine competition, where
+            Victor&apos;s wine, unknowingly altered by Felix&apos;s sabotage, faces judgment.
           </p>
           <p>
             Amidst the twists and turns, the family finds unexpected success and
             happiness in their pursuits. They learn valuable lessons about love,
-            determination, and the importance of staying true to oneself. In the
-            end, the film explores the idea that wealth is not just about
+            determination, and the importance of staying true to oneself.
+            In the end, the film explores the idea that wealth is not just about
             financial gain, but also about personal growth, relationships, and
             finding joy in the journey itself.
           </p>
