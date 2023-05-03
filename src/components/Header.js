@@ -14,7 +14,7 @@ export default function Header() {
       }}
       className="p8 relative "
     >
-      <section className=" mb-10 flex flex-col items-center justify-between gap-4 px-10  lg:mb-0  lg:max-h-[200px] lg:flex-row lg:p-2">
+      <section className=" mb-10 flex flex-col items-center justify-between gap-4 px-10  lg:mb-0  lg:max-h-[200px] lg:flex-row lg:items-end lg:p-2">
         <Link href="/">
           <Image
             src={"/logonew.png"}
@@ -27,15 +27,15 @@ export default function Header() {
         <h1 id="title" className=" opacity-0">
           Hooligun Studios
         </h1>
-        <section className=" flex flex-col items-center justify-between gap-4 lg:items-end lg:gap-20">
-          <ul className="flex gap-2 text-lg ">
+        <section className=" flex flex-col items-center justify-between gap-4 lg:items-end lg:gap-20 ">
+          {/* <ul className="flex gap-2 text-lg ">
             <Link href="#" locale="en">
               Eng
             </Link>
             <Link href="#" locale="ru">
               Rus
             </Link>
-          </ul>
+          </ul> */}
 
           <ul className="  flex justify-end  gap-2 text-lg ">
             {socials.map((social) => {
