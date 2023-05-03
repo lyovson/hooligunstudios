@@ -5,17 +5,19 @@ export default function Donkey() {
         <article className="flex  flex-col gap-2 text-lg  lg:w-[80%] ">
           <h2 className="py-4 text-3xl font-bold">Donkey Don&apos;t Die</h2>
           <p className="">
-            With the right motivation, even a misfortunate person can become a millionaire.
+            With the right motivation, even a misfortunate person can become a
+            millionaire.
           </p>
           <h3 className="py-4  text-2xl font-bold">Short Synopsis:</h3>
           <p>
-            Victor, a man who has just lost his job, is informed that he will inherit
-            one billion dollars from his late uncle on condition that he first earns
-            one million dollars through honest work within a year. The catch is that
-            his second cousin, Felix, also stands to inherit. Victor teams up with
-            his family to earn the million. On the other hand, Felix does everything
-            to stop him. Eventually, the family comes together in a heartwarming finale,
-            showcasing their talents and finding unexpected success.
+            Victor, a man who has just lost his job, is informed that he will
+            inherit one billion dollars from his late uncle on condition that he
+            first earns one million dollars through honest work within a year.
+            The catch is that his second cousin, Felix, also stands to inherit.
+            Victor teams up with his family to earn the million. On the other
+            hand, Felix does everything to stop him. Eventually, the family
+            comes together in a heartwarming finale, showcasing their talents
+            and finding unexpected success.
           </p>
           <h3 className="py-4 text-2xl font-bold">Synopsis:</h3>
           <p>
@@ -39,16 +41,17 @@ export default function Donkey() {
             embarks on a clever bartering project.
           </p>
           <p>
-            Meanwhile, Felix, Victor&apos;s second cousin, takes a risky shortcut
-            to accumulate the necessary funds, leading to a rivalry between the two.
-            Their endeavors culminate in an international wine competition, where
-            Victor&apos;s wine, unknowingly altered by Felix&apos;s sabotage, faces judgment.
+            Meanwhile, Felix, Victor&apos;s second cousin, takes a risky
+            shortcut to accumulate the necessary funds, leading to a rivalry
+            between the two. Their endeavors culminate in an international wine
+            competition, where Victor&apos;s wine, unknowingly altered by
+            Felix&apos;s sabotage, faces judgment.
           </p>
           <p>
             Amidst the twists and turns, the family finds unexpected success and
             happiness in their pursuits. They learn valuable lessons about love,
-            determination, and the importance of staying true to oneself.
-            In the end, the film explores the idea that wealth is not just about
+            determination, and the importance of staying true to oneself. In the
+            end, the film explores the idea that wealth is not just about
             financial gain, but also about personal growth, relationships, and
             finding joy in the journey itself.
           </p>
@@ -129,11 +132,11 @@ export default function Donkey() {
             both Victor&apos;s job loss and the ruined meal.
           </p>
           <p>
-            The doorbell rings. Victor&apos;s second cousin, Vartan, and his
+            The doorbell rings. Victor&apos;s second cousin, Felix, and his
             wife, Bella, arrive to celebrate the new year together. Upon
             learning of the ruined dinner, they consider going to another
             relative&apos;s house instead. However, with only half an hour left
-            until the new year, they decide to stay. Vartan, not wanting his
+            until the new year, they decide to stay. Felix, not wanting his
             thoughtful gift to go to waste, opens the bottle of champagne he had
             brought along.
           </p>
@@ -155,14 +158,14 @@ export default function Donkey() {
             year.
           </p>
           <p>
-            Suddenly, a problem arises as Vartan declares that he, being older
+            Suddenly, a problem arises as Felix declares that he, being older
             and sharing the same birth name as Victor, is the rightful inheritor
             according to the terms of the will.
           </p>
           <p>
             Barry Lewis, the lawyer, clarifies that the inheritance will go to
-            the one who earns the one million dollars. If both Victor and Vartan
-            achieve this, the inheritance will be divided. Vartan accepts the
+            the one who earns the one million dollars. If both Victor and Felix
+            achieve this, the inheritance will be divided. Felix accepts the
             decision and leaves with his wife.
           </p>
           <p>
@@ -231,19 +234,19 @@ export default function Donkey() {
             financial goals.
           </p>
           <p>
-            In an attempt to win the competition on his own terms, Vartan makes
-            a risky decision. He contacts a local loan shark and convinces him
-            to lend him a million dollars, despite the exorbitant interest
-            rates. Vartan sees this as a shortcut to achieving his goal, as he
+            In an attempt to win the competition on his own terms, Felix makes a
+            risky decision. He contacts a local loan shark and convinces him to
+            lend him a million dollars, despite the exorbitant interest rates.
+            Felix sees this as a shortcut to achieving his goal, as he
             anticipates the inheritance of a billion dollars. Utilizing his
-            rental shop as a means to accumulate funds, Vartan gradually amasses
+            rental shop as a means to accumulate funds, Felix gradually amasses
             a million dollars in his demonstration account.
           </p>
           <p>
             Victor faces a series of challenges, including the interference of
-            Vartan. In Victor&apos;s and Sako&apos;s small garage factory, the
+            Felix. In Victor&apos;s and Sako&apos;s small garage factory, the
             filtration equipment unexpectedly breaks down, revealing
-            Vartan&apos;s deliberate sabotage. With no immediate solution
+            Felix&apos;s deliberate sabotage. With no immediate solution
             available, they are left with no choice but to retrieve an old and
             rusty filtration bowl from the basement.
           </p>
@@ -255,17 +258,17 @@ export default function Donkey() {
             overlooked a crucial step: registering the trademark for their wine.
             To their dismay, they discover that the trademark they had in mind
             has already been registered, and the culprit behind it is none other
-            than Vartan.
+            than Felix.
           </p>
           <p>
-            In a final act of sabotage, Vartan covertly adds laxatives to the
+            In a final act of sabotage, Felix covertly adds laxatives to the
             ferment during the filtration process. Unaware of this treachery,
             Victor and Sako proceed with adding the ferment to the filtration
             system. This causes an invisible chemical reaction, altering the
             composition of the ferment.
           </p>
           <p>
-            Upon receiving an anonymous message from Vartan with a photo of Lara
+            Upon receiving an anonymous message from Felix with a photo of Lara
             entering a suspicious establishment, Victor&apos;s worst suspicions
             are ignited. Determined to uncover the truth, he rushes to his
             wife&apos;s workplace and finds her leaving, getting into a car that
@@ -293,7 +296,7 @@ export default function Donkey() {
             them.
           </p>
           <p>
-            In a fit of anger and resentment, Vartan decides to sabotage the
+            In a fit of anger and resentment, Felix decides to sabotage the
             night club where Lara had been singing. He orchestrates a plan that
             leads to the discovery of a large group of rats in the kitchen,
             prompting the inspectors to shut down the establishment due to
@@ -326,7 +329,7 @@ export default function Donkey() {
             After a delayed arrival of the chemical analysis report, Victor
             finally receives the results for their wine. To his horror, he
             discovers that the wine&apos;s chemical composition has been
-            unusually altered, most likely due to Vartan&apos;s sabotage. Victor
+            unusually altered, most likely due to Felix&apos;s sabotage. Victor
             realizes that the wine they entered into the contest may have
             unintended consequences.
           </p>
@@ -370,7 +373,7 @@ export default function Donkey() {
             The family, having forgotten about the inheritance, joyfully
             celebrates New Year&apos;s Eve with the new friends they made
             throughout the year. However, the loan shark and his goons arrive at
-            Vartan&apos;s house.
+            Felix&apos;s house.
           </p>
         </article>
       </section>
