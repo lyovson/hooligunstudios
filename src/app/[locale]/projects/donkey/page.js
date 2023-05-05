@@ -7,11 +7,13 @@ export default function Donkey() {
   return (
     <>
       <Menu />
-      <main className=" flex flex-col items-center gap-4 md:flex-row md:items-start md:justify-around lg:pt-24 ">
+      <main className=" flex flex-col items-center gap-4 md:flex-row md:items-start md:justify-around lg:pb-6 lg:pt-32 ">
         <section className=" mb-12 flex  w-full max-w-[800px]  flex-col p-4">
           <article className="flex  flex-col gap-2 text-lg  ">
-            <h2 className="py-4 font-title  text-3xl">Donkey Don&apos;t Die</h2>
-            <p className="">
+            <h2 className="py-4 pl-4 font-title  text-4xl">
+              Donkey Don&apos;t Die
+            </h2>
+            <p className="p-4">
               With the right motivation, even a misfortunate person can become a
               millionaire.
             </p>

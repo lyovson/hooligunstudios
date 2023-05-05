@@ -6,7 +6,7 @@ export default function Media() {
     <>
       <Menu />
       <main className="mb-12 flex   flex-col gap-4 p-8 lg:pt-32">
-        <h2 className="py-4 text-left  font-title text-2xl">
+        <h2 className="py-4 text-center  font-title text-3xl">
           Musical Reference:
         </h2>
         <sections className="flex flex-row flex-wrap gap-4">
@@ -29,8 +29,8 @@ export default function Media() {
             info={`A great song from '00s`}
           />
         </sections>
-        <h2 className="py-4 text-left  font-title text-2xl">
-          Visual Reference:
+        <h2 className="py-4 text-center  font-title text-3xl">
+          Visual Reference
         </h2>
         <sections className="flex flex-row flex-wrap gap-4 ">
           <Video

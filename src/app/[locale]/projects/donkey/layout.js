@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+import Footer from "./Footer.js";
+
 export default function ProjectLayout({ children }) {
   const [value, setValue] = useState("");
   const [logged, setLogged] = useState(false);
@@ -43,8 +45,9 @@ export default function ProjectLayout({ children }) {
     );
   }
   return (
-    <section className={`  flex flex-col lg:flex-row`}>
+    <section className={`  flex flex-col `}>
       <section className="relative w-full ">{children}</section>
+      <Footer />
     </section>
   );
 }

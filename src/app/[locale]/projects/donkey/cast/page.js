@@ -8,7 +8,7 @@ export default function Cast() {
     <>
       <Menu />
       <main className="mb-12 flex   flex-col gap-4 p-8 lg:pt-28">
-        <h2 className="py-4 text-left  font-title text-2xl">Prime Cast:</h2>
+        <h2 className="py-4 text-center  font-title text-3xl">Prime Cast</h2>
         <section className="flex  flex-col items-center justify-center gap-4">
           <SquareCard
             info={{
@@ -30,11 +30,11 @@ export default function Cast() {
           />
           <SquareCard
             info={{
-              name: "Arthur Babich",
-              bio: "Famous blogger, Tik-Toker from Russia. Has more than 14 million followers.",
-              image: "/donkey/babich.png",
-              approved: false,
-              role: "Boyfriend - Mark",
+              name: "Arman Ghazaryan",
+              bio: "Famous actor, comedian. Displayed exceptional versatility throughout his illustrious career which makes him the ideal choice to portray the character of Felix.",
+              image: "/donkey/arman.jpg",
+              approved: true,
+              role: "Brother - Felix",
             }}
           />
           <SquareCard

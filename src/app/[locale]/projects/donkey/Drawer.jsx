@@ -23,7 +23,7 @@ export default function Drawer({ title, children, opened }) {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
             mode={"sync"}
-            className=" bg-stome-900  p-2"
+            className=" bg-stome-900  p-4"
           >
             {children}
           </motion.main>
