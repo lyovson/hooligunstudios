@@ -26,7 +26,7 @@ export default function Card({ info }) {
       />
       <aside className=" flex flex-col gap-8  p-4 ">
         <article className=" flex flex-col gap-2">
-          <h3 className={`text-2xl font-bold`}>{info.name}</h3>
+          <h3 className={`font-title text-2xl`}>{info.name}</h3>
           <p className="italic">{info.role}</p>
           <p className=" text-base font-extralight">{info.bio}</p>
           {info.approved && (

@@ -26,7 +26,7 @@ export default function Video({ videoId, title, info, className }) {
           className={`mx-auto`}
           iframeClassName={`aspect-video w-full h-fit  `}
         />
-        <h3 className={`pt-4 text-2xl`}>{title}</h3>
+        <h3 className={`pt-4 font-title text-2xl`}>{title}</h3>
         <p className="text-sm">{info}</p>
       </article>
     </motion.section>

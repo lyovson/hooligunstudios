@@ -14,7 +14,9 @@ export default function About() {
         className="relative flex  flex-col items-center  justify-between  gap-10  p-8 pb-16    md:px-20"
       >
         <article className="lg:max-w-[65%]  ">
-          <h2 className={`py-4 text-left text-3xl`}>{t("title")}</h2>
+          <h2 className={`py-4 text-left font-title text-3xl `}>
+            {t("title")}
+          </h2>
           <p className="  ">{t("about")}</p>
         </article>
         <Image

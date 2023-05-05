@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 
-import Menu from "./Menu.jsx";
-
 export default function ProjectLayout({ children }) {
   const [value, setValue] = useState("");
   const [logged, setLogged] = useState(false);
@@ -14,7 +12,13 @@ export default function ProjectLayout({ children }) {
 
   const onEnter = (e) => {
     if (e.key === "Enter") {
-      if (value === "TopSecret!" || value === "Mukuchian") {
+      if (
+        value === "TopSecret!" ||
+        value === "Mukuchian" ||
+        value === "Papian" ||
+        value === "Hekimian" ||
+        value === "Saharian"
+      ) {
         setLogged(true);
       } else {
         setValue("");
@@ -40,10 +44,7 @@ export default function ProjectLayout({ children }) {
   }
   return (
     <section className={`  flex flex-col lg:flex-row`}>
-      <section className="relative w-full lg:pt-24">
-        {children}
-        <Menu />
-      </section>
+      <section className="relative w-full ">{children}</section>
     </section>
   );
 }

@@ -18,18 +18,20 @@ export default function Menu() {
   return (
     <div className=" fixed bottom-0 left-0 right-0 flex items-center justify-around border-b-0 border-t border-[#bab49e] bg-black py-2 text-[#bab49e] shadow-md lg:absolute lg:bottom-auto lg:right-0 lg:top-0 lg:justify-center lg:gap-8 lg:border-b lg:border-t-0 lg:p-8">
       {[
-        { href: "/projects/donkey/en", icon: faBarcode, label: "Story" },
+        { href: "/projects/donkey/", icon: faBarcode, label: "Story" },
         {
-          href: "/projects/donkey/en/cast",
+          href: "/projects/donkey/cast",
           icon: faPeopleGroup,
           label: "Prime Cast",
         },
 
         {
-          href: "/projects/donkey/en/media",
+          href: "/projects/donkey/media",
           icon: faPhotoFilm,
           label: "Media",
         },
+        { href: "/projects/donkey/ru", icon: "", label: "🇷🇺 RU" },
+        { href: "/projects/donkey/hy", icon: "", label: "🇦🇲 HY" },
       ].map((item, index) => (
         <Link key={index} href={item.href}>
           <motion.div

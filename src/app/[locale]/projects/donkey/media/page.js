@@ -1,13 +1,13 @@
-import Video from "../../../../../../components/Video.jsx";
+import Video from "../../../../../components/Video.jsx";
 import Menu from "../Menu.jsx";
 
 export default function Media() {
   return (
     <>
       <Menu />
-      <main className="mb-12 flex   flex-col gap-4 p-8">
-        <h2 className="py-4 text-left font-title text-3xl">
-          Музыкальные Референсы:
+      <main className="mb-12 flex   flex-col gap-4 p-8 lg:pt-32">
+        <h2 className="py-4 text-left  font-title text-2xl">
+          Musical Reference:
         </h2>
         <sections className="flex flex-row flex-wrap gap-4">
           <Video
@@ -29,10 +29,10 @@ export default function Media() {
             info={`A great song from '00s`}
           />
         </sections>
-        <h2 className="py-4 text-left font-title text-3xl">
-          Визуальные Референсы:
+        <h2 className="py-4 text-left  font-title text-2xl">
+          Visual Reference:
         </h2>
-        <sections className="flex flex-row flex-wrap gap-4">
+        <sections className="flex flex-row flex-wrap gap-4 ">
           <Video
             className={` max-w-[350px]`}
             videoId={"ecE0ZeNlejE"}

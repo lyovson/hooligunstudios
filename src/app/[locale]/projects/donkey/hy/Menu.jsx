@@ -30,6 +30,8 @@ export default function Menu() {
           icon: faPhotoFilm,
           label: "Մեդիա",
         },
+        { href: "/projects/donkey/", icon: "", label: "🇺🇸 EN" },
+        { href: "/projects/donkey/ru", icon: "", label: "🇷🇺 RU" },
       ].map((item, index) => (
         <Link key={index} href={item.href}>
           <motion.div

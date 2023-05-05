@@ -24,7 +24,7 @@ export default function Header() {
             className=" "
           />
         </Link>
-        <h1 id="title" className=" opacity-0">
+        <h1 id="title" className="font-title opacity-0">
           Hooligun Studios
         </h1>
         <section className=" flex flex-col items-center justify-between gap-4 lg:items-end lg:gap-20 ">

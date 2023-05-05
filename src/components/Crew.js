@@ -16,7 +16,7 @@ export default function Crew() {
       }}
       className=" relative flex flex-col pb-12 pt-10"
     >
-      <h2 className={`py-4   text-center  text-3xl`}>{t("title")}</h2>
+      <h2 className={`py-4   font-title  text-3xl`}>{t("title")}</h2>
       <ssection className="flex flex-wrap justify-center    gap-4  ">
         {crew.map((info) => {
           return (
