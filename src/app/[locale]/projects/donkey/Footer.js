@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <section className="relative  hidden w-full flex-col items-center  justify-center  p-8  lg:flex  ">
+    <section className="relative z-10  hidden w-full flex-col items-center  justify-center  p-8  lg:flex  ">
       <Image
         src={"/border-little.svg"}
         alt={"Stylized border with a skull"}
