@@ -18,7 +18,7 @@ const normal = localFont({
 });
 
 const title = localFont({
-  src: "./fonts/titles.otf",
+  src: "./fonts/title.otf",
   display: "swap",
   subsets: ["cyrillic", "latin"],
   variable: "--gotham-title",
