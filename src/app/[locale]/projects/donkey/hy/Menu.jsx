@@ -2,6 +2,7 @@
 
 import {
   faBarcode,
+  faGlobe,
   faPeopleGroup,
   faPhotoFilm,
 } from "@fortawesome/free-solid-svg-icons";
@@ -30,8 +31,8 @@ export default function Menu() {
           icon: faPhotoFilm,
           label: "Մեդիա",
         },
-        { href: "/projects/donkey/", icon: "", label: "🇺🇸 EN" },
-        { href: "/projects/donkey/ru", icon: "", label: "🇷🇺 RU" },
+        { href: "/projects/donkey/", icon: faGlobe, label: "EN" },
+        { href: "/projects/donkey/ru", icon: faGlobe, label: "RU" },
       ].map((item, index) => (
         <Link key={index} href={item.href}>
           <motion.div
