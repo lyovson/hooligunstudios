@@ -8,7 +8,7 @@ export default function Drawer({ title, children, opened }) {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <AnimatePresence>
-      <article className="flex flex-col text-lg">
+      <article className="flex flex-col gap-2 text-lg">
         <h3
           onClick={toggle}
           className=" mt-4 bg-stone-900 p-4 font-title text-2xl"
@@ -23,7 +23,7 @@ export default function Drawer({ title, children, opened }) {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
             mode={"sync"}
-            className=" bg-stome-900  p-4"
+            className=" bg-stome-900 flex flex-col gap-4  p-4"
           >
             {children}
           </motion.main>
