@@ -20,7 +20,7 @@ export default function Menu() {
   return (
     <aside className=" fixed bottom-0 left-0 right-0 z-10 flex items-center justify-around border-b-0 border-t border-[#bab49e] bg-black py-2 text-[#bab49e] shadow-md lg:absolute lg:bottom-auto lg:right-0 lg:top-0 lg:justify-center lg:gap-8  lg:border-t-0 lg:p-8">
       {[
-        { href: "/projects/donkey/", icon: faBarcode, label: "Story" },
+        { href: "/projects/donkey/", icon: faBarcode, label: "Treatment" },
         {
           href: "/projects/donkey/cast",
           icon: faPeopleGroup,
