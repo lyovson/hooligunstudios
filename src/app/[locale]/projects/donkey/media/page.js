@@ -1,4 +1,5 @@
 import Video from "../../../../../components/Video.jsx";
+import Footer from "../Footer.js";
 import Menu from "../Menu.jsx";
 
 export default function Media() {
@@ -47,6 +48,7 @@ export default function Media() {
           />
         </sections>
       </main>
+      <Footer />
     </>
   );
 }

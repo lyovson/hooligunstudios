@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "../Footer.js";
 import Menu from "../Menu.jsx";
 import SquareCard from "../SquareCard.jsx";
 
@@ -48,6 +49,7 @@ export default function Cast() {
           />
         </section>
       </main>
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import Drawer from "./Drawer.jsx";
+import Footer from "./Footer.js";
 import Menu from "./Menu.jsx";
 
 export default function Donkey() {
@@ -411,6 +412,7 @@ export default function Donkey() {
           />
         </section>
       </main>
+      <Footer />
     </>
   );
 }

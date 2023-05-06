@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "../Footer.js";
 import Menu from "../Menu.jsx";
 import SquareCard from "../SquareCard.jsx";
 
@@ -7,8 +8,8 @@ export default function Cast() {
   return (
     <>
       <Menu />
-      <main className="mb-12 flex   flex-col gap-4 p-8 ">
-        <h2 className="py-4 text-left font-title  text-5xl">Прайм Каст:</h2>
+      <main className="mb-12 flex   flex-col gap-4 p-8 lg:pt-28">
+        <h2 className="py-4 text-center  font-title text-3xl">Прайм Каст</h2>
         <section className="flex  flex-col items-center justify-center gap-4">
           <SquareCard
             info={{
@@ -30,11 +31,11 @@ export default function Cast() {
           />
           <SquareCard
             info={{
-              name: "Артур Бабич",
-              bio: "Популярный блогер, тик-токер из России. Имеет более чем 14 миллионов подписчиков.",
-              image: "/donkey/babich.png",
-              approved: false,
-              role: "Бойфренд - Марк",
+              name: "Арман Казарян",
+              bio: "Известный актер, комик. На протяжении всей своей блестящей карьеры он демонстрировал исключительную универсальность, что делает его идеальным кандидатом на роль Феликса.",
+              image: "/donkey/arman.jpg",
+              approved: true,
+              role: "Брат - Феликс",
             }}
           />
           <SquareCard
@@ -42,12 +43,14 @@ export default function Cast() {
               name: "Милена Микаелян",
               bio: "Резидент студии Hooligun Studios, начинающая актриса с большим диапазоном талантов.",
               image: "/donkey/milena.png",
+              image: "/donkey/milena.png",
               approved: true,
               role: "Дочь - Ника",
             }}
           />
         </section>
       </main>
+      <Footer />
     </>
   );
 }
