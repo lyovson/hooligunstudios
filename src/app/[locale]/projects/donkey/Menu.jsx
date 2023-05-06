@@ -33,7 +33,7 @@ export default function Menu() {
           label: "Media",
         },
         { href: "/projects/donkey/ru", icon: faGlobe, label: "RU" },
-        { href: "/projects/donkey/hy", icon: faGlobe, label: "HY" },
+        // { href: "/projects/donkey/hy", icon: faGlobe, label: "HY" },
       ].map((item, index) => (
         <Link key={index} href={item.href}>
           <motion.div
