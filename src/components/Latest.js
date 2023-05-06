@@ -43,7 +43,7 @@ export default function Latest() {
             </a>
             <a
               className="flex gap-2 rounded-lg border-2 border-[#bab49e] p-2 shadow-md"
-              href="https://www.imdb.com/title/tt27466882/?ref_=fn_al_tt_1"
+              href="https://www.imdb.com/title/tt27466882/"
               target="_blank"
             >
               <FontAwesomeIcon icon={faImdb} className="h-6 w-6 " />
