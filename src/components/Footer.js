@@ -1,5 +1,6 @@
 import {
   faEnvelope,
+  faLink,
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
@@ -33,13 +34,29 @@ export default function Footer() {
       </aside>
       <aside className="flex flex-col gap-4 text-justify text-sm ">
         <h3 className="py-4 font-title text-xl">Info:</h3>
-        <Link className="underline" href="/resources">
-          <p>{t("resources")}</p>
-        </Link>
-        <p>&copy; {t("legal")}</p>
-        <a className="underline" href="https://lyovson.com">
-          <p>{t("lyovson")}</p>
-        </a>
+        <section>
+          <p>
+            {t("resources")}
+            <span>
+              {"  "}
+              <Link className="underline" href="/resources">
+                <FontAwesomeIcon icon={faLink} className="h-5 w-5" />
+              </Link>
+            </span>
+          </p>
+        </section>
+        <section>
+          <p>&copy; {t("legal")}</p>
+          <p>
+            {t("lyovson")}{" "}
+            <span>
+              {"  "}
+              <a className="underline" href="https://lyovson.com">
+                <FontAwesomeIcon icon={faLink} className="h-5 w-5" />
+              </a>
+            </span>
+          </p>
+        </section>
       </aside>
     </section>
   );

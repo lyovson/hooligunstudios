@@ -1,5 +1,6 @@
 import {
   faEnvelope,
+  faLink,
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
@@ -37,17 +38,30 @@ export default function Footer() {
         </aside>
         <aside className="flex flex-col gap-4 text-justify text-sm ">
           <h3 className="py-4 font-title text-xl">Info:</h3>
-          <Link className="underline" href="/resources">
+          <section>
             <p>
               To whom it may concern: company logo and OTTK film’s official
               posters in production resolution are listed here, don’t mess
               around with it, or Grinch will get you.
+              <span>
+                {"  "}
+                <Link className="underline" href="/resources">
+                  <FontAwesomeIcon icon={faLink} className="h-5 w-5" />
+                </Link>
+              </span>
             </p>
-          </Link>
-          <p>&copy; 2023 Hooligun Studios LLC. All rights reserved.</p>
-          <a className="underline" href="https://lyovson.com">
-            <p>Website by Lyovson.</p>
-          </a>
+          </section>
+          <section>
+            <p>
+              &copy; 2023 Hooligun Studios LLC. All rights reserved.{" "}
+              <span>
+                {"  "}
+                <a className="underline" href="https://lyovson.com">
+                  <FontAwesomeIcon icon={faLink} className="h-5 w-5" />
+                </a>
+              </span>
+            </p>
+          </section>
         </aside>
       </aside>
     </section>

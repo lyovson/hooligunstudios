@@ -14,10 +14,10 @@ export default function Crew() {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className=" relative flex flex-col pb-12 pt-10"
+      className=" relative  flex  flex-col justify-between gap-10  p-8   pb-16 pt-10    md:px-20"
     >
       <h2 className={`py-4   font-title  text-3xl`}>{t("title")}</h2>
-      <ssection className="flex flex-wrap justify-center    gap-4  ">
+      <ssection className="flex flex-wrap justify-evenly    gap-4  ">
         {crew.map((info) => {
           return (
             <Card
