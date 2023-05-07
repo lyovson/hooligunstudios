@@ -6,7 +6,7 @@ export default function Media() {
   return (
     <>
       <Menu />
-      <main className="mb-12 flex   flex-col gap-4 p-8 lg:pt-32">
+      <main className="mb-12 flex   flex-col gap-4 p-8 lg:pt-28">
         <h2 className="py-4 text-center  font-title text-3xl">
           Musical Reference
         </h2>

@@ -19,9 +19,9 @@ export default function Footer() {
         className=" absolute -bottom-6 z-10 mx-auto     px-4  sm:-bottom-7 md:bottom-56 md:left-[calc(50%-300px)] lg:w-[600px]"
       />
       <aside className="flex flex-col gap-4 lg:flex-row">
-        <aside className="flex flex-col gap-4 text-justify  ">
+        <aside className="flex flex-col gap-2 text-justify  ">
           <h3 className="py-4 font-title text-xl">Contact:</h3>
-          <ul className=" flex flex-col justify-center  gap-4 ">
+          <ul className=" flex flex-col justify-center gap-4 text-sm ">
             <li className="flex items-center gap-4">
               <FontAwesomeIcon icon={faLocationDot} className="h-4 w-4" />
               <span>37/1 David Bek Lane | 0008 | Yerevan, Armenia</span>

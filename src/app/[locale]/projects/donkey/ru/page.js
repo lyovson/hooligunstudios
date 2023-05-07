@@ -8,10 +8,10 @@ export default function Donkey() {
   return (
     <>
       <Menu />
-      <main className=" flex flex-col items-center gap-4 md:flex-row md:items-start md:justify-around lg:pb-6 lg:pt-32 ">
+      <main className=" flex flex-col items-center gap-4 md:flex-row md:items-start md:justify-around lg:pb-6 lg:pt-8 ">
         <section className=" mb-12 flex  w-full max-w-[800px]  flex-col p-4">
           <article className="flex  flex-col gap-2 text-lg  ">
-            <h2 className="py-4 pl-4 font-title  text-4xl">Ослик, Не Умирай</h2>
+            <h2 className="py-2 pl-4 font-title  text-4xl">Ослик, Не Умирай</h2>
             <p className="p-4">
               Даже невезучий человек может стать миллионером при правильной
               мотивации. Боже - испытай меня большими деньгами.
