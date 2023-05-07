@@ -20,7 +20,7 @@ export default function Footer() {
       />
       <aside className="flex flex-col gap-4 lg:flex-row">
         <aside className="flex flex-col gap-2 text-justify  ">
-          <h3 className="py-4 font-title text-xl">Contact:</h3>
+          <h3 className="py-4 font-title text-xl">Contacts:</h3>
           <ul className=" flex flex-col justify-center gap-4 text-sm ">
             <li className="flex items-center gap-4">
               <FontAwesomeIcon icon={faLocationDot} className="h-4 w-4" />

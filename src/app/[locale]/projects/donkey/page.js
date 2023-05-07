@@ -18,7 +18,7 @@ export default function Donkey() {
               With the right motivation, even a misfortunate person can become a
               millionaire.
             </p>
-            <Drawer opened={true} title={`Short Synopsis:`}>
+            <Drawer opened={true} title={`Short Synopsis`}>
               {/* <h3 className="py-4  text-2xl font-bold">Short Synopsis:</h3> */}
               <p>
                 Victor, a man who has just lost his job, is informed that he
@@ -31,7 +31,7 @@ export default function Donkey() {
                 finale, showcasing their talents and finding unexpected success.
               </p>
             </Drawer>
-            <Drawer opened={false} title={`Synopsis:`}>
+            <Drawer opened={false} title={`Synopsis`}>
               {/* <h3 className="py-4 text-2xl font-bold">Synopsis:</h3> */}
               <p>
                 A heartwarming and comedic tale that follows the journey of
@@ -74,7 +74,7 @@ export default function Donkey() {
                 unpredictable nature of life&apos;s challenges.
               </p>
             </Drawer>
-            <Drawer opened={false} title={`Treatment:`}>
+            <Drawer opened={false} title={`Treatment`}>
               {/* <h3 className="py-4 text-2xl font-bold">Treatment:</h3> */}
               <p>
                 On the early morning of December 31st, two men in their 50s,
