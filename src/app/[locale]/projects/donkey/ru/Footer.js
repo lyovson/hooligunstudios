@@ -20,7 +20,7 @@ export default function Footer() {
       />
       <aside className="flex flex-col gap-4 lg:flex-row">
         <aside className="flex flex-col gap-4 text-justify  ">
-          <h3 className="py-4 font-title text-xl">Контакты:</h3>
+          <h3 className="py-4 font-title text-xl">Контакты</h3>
           <ul className=" flex flex-col justify-center gap-2 text-sm ">
             <li className="flex items-center gap-4">
               <FontAwesomeIcon icon={faLocationDot} className="h-4 w-4" />
@@ -37,7 +37,7 @@ export default function Footer() {
           </ul>
         </aside>
         <aside className="flex flex-col gap-4 text-justify text-sm ">
-          <h3 className="py-4 font-title text-xl">Инфо:</h3>
+          <h3 className="py-4 font-title text-xl">Инфо</h3>
           <section>
             <p>
               Для тех, кого это касается: логотип компании и официальные постеры

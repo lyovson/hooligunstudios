@@ -4,7 +4,7 @@ export default function Media() {
   return (
     <main className="mb-12 flex   flex-col gap-4 p-8 ">
       <h2 className="py-4 text-left  font-title text-2xl">
-        Երաժշտական պատկերացում:
+        Երաժշտական պատկերացում
       </h2>
       <sections className="flex flex-row flex-wrap gap-4">
         <Video
@@ -27,7 +27,7 @@ export default function Media() {
         />
       </sections>
       <h2 className="py-4 text-left  font-title text-2xl">
-        Վիզուալ պատկերացում:
+        Վիզուալ պատկերացում
       </h2>
       <sections className="flex flex-row flex-wrap gap-4">
         <Video

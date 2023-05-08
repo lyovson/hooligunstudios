@@ -28,7 +28,7 @@ export default function Latest() {
         />
 
         <article className="flex flex-col  gap-4">
-          <h2 className={`py-4 font-title text-3xl`}>{t("title")}</h2>
+          <h2 className={`pb-0 pt-4 font-title text-3xl`}>{t("title")}</h2>
           <article className="">
             <p>{t("ottk")}</p>
           </article>

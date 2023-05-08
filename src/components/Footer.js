@@ -16,7 +16,7 @@ export default function Footer() {
     <section className="flex flex-col items-start  justify-center  gap-8  p-8 lg:flex-row lg:items-start lg:justify-between">
       <LanguageSwitcher />
       <aside className="flex flex-col gap-4 text-justify  ">
-        <h3 className="py-4 font-title text-xl">Contact:</h3>
+        <h3 className="py-4 font-title text-xl">Contact</h3>
         <ul className=" flex flex-col justify-center  gap-4 ">
           <li className="flex items-center gap-4">
             <FontAwesomeIcon icon={faLocationDot} className="h-4 w-4" />
@@ -33,7 +33,7 @@ export default function Footer() {
         </ul>
       </aside>
       <aside className="flex flex-col gap-4 text-justify text-sm ">
-        <h3 className="py-4 font-title text-xl">Info:</h3>
+        <h3 className="py-4 font-title text-xl">Info</h3>
         <section>
           <p>
             {t("resources")}
