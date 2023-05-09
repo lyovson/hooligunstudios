@@ -17,7 +17,7 @@ export default function Footer() {
       <LanguageSwitcher />
       <aside className="flex flex-col gap-4 text-justify  ">
         <h3 className="py-4 font-title text-xl">Contact</h3>
-        <ul className=" flex flex-col justify-center  gap-4 ">
+        <ul className=" flex flex-col justify-center  gap-4 text-sm">
           <li className="flex items-center gap-4">
             <FontAwesomeIcon icon={faLocationDot} className="h-4 w-4" />
             <span>{t("address")}</span>
@@ -34,12 +34,22 @@ export default function Footer() {
       </aside>
       <aside className="flex flex-col gap-4 text-justify text-sm ">
         <h3 className="py-4 font-title text-xl">Info</h3>
-        <section>
+        <section className="flex flex-col gap-2">
           <p>
             {t("resources")}
             <span>
               {"  "}
-              <Link className="underline" href="/resources">
+              <Link href="/resources">
+                <FontAwesomeIcon icon={faLink} className="h-5 w-5 " />
+              </Link>
+            </span>
+          </p>
+
+          <p>
+            {t("partners")}
+            <span>
+              {"  "}
+              <Link href="/projects/donkey">
                 <FontAwesomeIcon icon={faLink} className="h-5 w-5" />
               </Link>
             </span>
@@ -51,7 +61,7 @@ export default function Footer() {
             {t("lyovson")}{" "}
             <span>
               {"  "}
-              <a className="underline" href="https://lyovson.com">
+              <a href="https://lyovson.com">
                 <FontAwesomeIcon icon={faLink} className="h-5 w-5" />
               </a>
             </span>
