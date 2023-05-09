@@ -26,9 +26,7 @@ export default function ProjectCard({ title, info, image }) {
       />
       <aside className=" flex w-full flex-col gap-8  rounded-b-xl border border-stone-800 p-4">
         <article className=" flex flex-col gap-2 p-4">
-          <h3 className={`text-center font-title font-title text-xl`}>
-            {title}
-          </h3>
+          <h3 className={`text-center font-title text-xl`}>{title}</h3>
         </article>
       </aside>
     </motion.article>
