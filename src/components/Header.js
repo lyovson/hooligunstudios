@@ -28,15 +28,6 @@ export default function Header() {
           Hooligun Studios
         </h1>
         <section className=" flex flex-col items-center justify-between gap-4 lg:items-end lg:gap-20 ">
-          {/* <ul className="flex gap-2 text-lg ">
-            <Link href="#" locale="en">
-              Eng
-            </Link>
-            <Link href="#" locale="ru">
-              Rus
-            </Link>
-          </ul> */}
-
           <ul className="  flex justify-end  gap-2 text-lg ">
             {socials.map((social) => {
               return (

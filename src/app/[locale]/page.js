@@ -1,6 +1,5 @@
 import About from "../../components/About.js";
 import Crew from "../../components/Crew.js";
-import Footer from "../../components/Footer.js";
 import Latest from "../../components/Latest.js";
 
 export default function Home() {
@@ -9,7 +8,6 @@ export default function Home() {
       <About />
       <Latest />
       <Crew />
-      <Footer />
     </main>
   );
 }

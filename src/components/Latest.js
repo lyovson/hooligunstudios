@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
+import Button from "./Button.jsx";
 import Video from "./Video.jsx";
 
 export default function Latest() {
@@ -32,22 +33,22 @@ export default function Latest() {
           <article className="">
             <p>{t("ottk")}</p>
           </article>
-          <footer className="  className={`max-w-`} flex justify-center gap-4 py-4 md:order-2 md:justify-start">
-            <a
-              className="flex gap-2 rounded-lg border-2 border-[#bab49e] p-2 shadow-md "
-              href="#"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faSafari} className="h-6 w-6 " />
-              {t("website")}
+          <footer className=" flex justify-center gap-4 py-4 md:order-2 md:justify-start">
+            <a href="#" target="_blank">
+              <Button className="flex gap-2">
+                <FontAwesomeIcon icon={faSafari} className="h-6 w-6 " />
+                {t("website")}
+              </Button>
             </a>
             <a
-              className="flex gap-2 rounded-lg border-2 border-[#bab49e] p-2 shadow-md"
+              className="flex gap-2 "
               href="https://www.imdb.com/title/tt27466882/"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faImdb} className="h-6 w-6 " />
-              {t("imdb")}
+              <Button className="flex gap-2">
+                <FontAwesomeIcon icon={faImdb} className="h-6 w-6 " />
+                {t("imdb")}
+              </Button>
             </a>
           </footer>
         </article>

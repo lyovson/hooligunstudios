@@ -2,16 +2,17 @@
 
 import { Link } from "next-intl";
 
+import Button from "./Button";
+
 export default function LanguageSwitcher() {
   return (
     <aside className="flex flex-col  gap-4 text-justify text-sm ">
-      <h3 className="py-4 font-title text-xl">Language:</h3>
       <ul className=" lg:lex-col flex gap-2 text-lg ">
-        <Link className="border border-stone-500 p-2" href="#" locale="en">
-          Eng
+        <Link href="" locale="en">
+          <Button>Eng</Button>
         </Link>
-        <Link className="border border-stone-500 p-2" href="#" locale="ru">
-          Rus
+        <Link href="" locale="ru">
+          <Button>Rus</Button>
         </Link>
       </ul>
     </aside>

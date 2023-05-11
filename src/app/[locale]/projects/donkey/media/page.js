@@ -1,14 +1,16 @@
+import { useTranslations } from "next-intl";
+
 import Video from "../../../../../components/Video.jsx";
-import Footer from "../Footer.js";
 import Menu from "../Menu.jsx";
 
 export default function Media() {
+  const t = useTranslations("projects.donkey.media");
   return (
     <>
       <Menu />
       <main className="mb-12 flex   flex-col gap-4 p-8 lg:pt-28">
         <h2 className="py-4 text-center  font-title text-3xl">
-          Musical Reference
+          {t("musical")}
         </h2>
         <sections className="flex aspect-video flex-row flex-wrap justify-center gap-4">
           <Video
@@ -30,9 +32,7 @@ export default function Media() {
             info={`A great song from '00s`}
           />
         </sections>
-        <h2 className="py-4 text-center  font-title text-3xl">
-          Visual Reference
-        </h2>
+        <h2 className="py-4 text-center  font-title text-3xl">{t("visual")}</h2>
         <sections className="flex aspect-video flex-row flex-wrap justify-center gap-4 lg:-mb-60 ">
           <Video
             className={` max-w-[400px]`}
@@ -48,7 +48,6 @@ export default function Media() {
           />
         </sections>
       </main>
-      <Footer />
     </>
   );
 }

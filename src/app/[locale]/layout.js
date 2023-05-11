@@ -2,6 +2,7 @@ import { useLocale } from "next-intl";
 import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 
+import Footer from "../../components/Footer.js";
 import Header from "../../components/Header.js";
 import "./globals.css";
 
@@ -35,10 +36,11 @@ export default function RootLayout({ params, children }) {
   return (
     <html lang={locale} className={`${normal.variable} ${title.variable}`}>
       <body
-        className={`  mx-auto flex max-w-[1200px] flex-col text-lg  font-normal leading-tight text-[#bab49e]`}
+        className={` mx-auto  flex min-h-screen max-w-[1200px] flex-col text-lg  font-normal leading-tight text-[#bab49e]`}
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
