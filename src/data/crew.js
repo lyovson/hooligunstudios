@@ -40,16 +40,6 @@ const info = [
     ig: "https://www.instagram.com/milena__mik/",
   },
   {
-    name: "Ruby Davies",
-    slug: "ruby",
-    role: "US Distribution",
-    image: "",
-    phone: "+37455567372",
-    email: "distribution@hooligunstudios.com",
-    fb: "https://www.facebook.com/ruby.davids.12",
-    ig: "https://www.instagram.com/ottk_film/",
-  },
-  {
     name: "Hasmik Khachunts",
     slug: "jess",
     role: "Copywriter",
