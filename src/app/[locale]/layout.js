@@ -12,16 +12,16 @@ export const metadata = {
 };
 
 const normal = localFont({
-  src: "./fonts/normal.otf",
+  src: "./fonts/light.otf",
   display: "swap",
-  subsets: ["cyrillic", "latin"],
+  subsets: ["latin"],
   variable: "--gotham-normal",
 });
 
 const title = localFont({
-  src: "./fonts/title.otf",
+  src: "./fonts/bold.otf",
   display: "swap",
-  subsets: ["cyrillic", "latin"],
+  subsets: ["latin"],
   variable: "--gotham-title",
 });
 
@@ -35,13 +35,7 @@ export default function RootLayout({ params, children }) {
 
   return (
     <html lang={locale} className={`${normal.variable} ${title.variable}`}>
-      <body
-        className={` mx-auto  flex min-h-screen max-w-[1200px] flex-col text-lg  font-normal leading-tight text-[#bab49e]`}
-      >
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <body className={` mx-auto w-screen`}>{children}</body>
     </html>
   );
 }
