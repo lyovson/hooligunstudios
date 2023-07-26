@@ -10,16 +10,6 @@ const info = [
     ig: "https://www.instagram.com/serjgabyan/",
   },
   {
-    name: "Rafa Lyovson",
-    slug: "lyovson",
-    role: "Exec. Producer",
-    image: "",
-    phone: "+37455567372",
-    email: "lyovson@hooligunstudios.com",
-    fb: "https://www.facebook.com/rafa.lyovson",
-    ig: "https://www.instagram.com/rafa.lyovson/",
-  },
-  {
     name: "Lilit Mkrtchyan",
     slug: "lilit",
     role: "Exec. Producer",
@@ -38,16 +28,6 @@ const info = [
     email: "milka@hooligunstudios.com",
     fb: "https://www.facebook.com/milena.mikayelyan.am",
     ig: "https://www.instagram.com/milena__mik/",
-  },
-  {
-    name: "Hasmik Khachunts",
-    slug: "jess",
-    role: "Copywriter",
-    image: "",
-    phone: "+37455188870",
-    email: "pr@hooligunstudios.com",
-    fb: "https://www.facebook.com/hasmik.khachunts",
-    ig: "https://www.instagram.com/khachunts/",
   },
   {
     name: "Tika Agasimova",
